@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="YunShuTest" tests="150" time="16.471">
+  <testsuite name="登录接口 / 手机号登录接口--管理员登录" id="12e34190-c8b9-4c14-8ccf-8feda385e9cc" tests="5" failures="0" errors="0" time="0.435">
+    <testcase name="Status code is 200" time="0.435"/>
+    <testcase name="Successful POST request" time="0.435"/>
+    <testcase name="msg==ok" time="0.435"/>
+    <testcase name="ret==0" time="0.435"/>
+  </testsuite>
+  <testsuite name="登录接口 / 手机号登录接口--成员登录" id="ecec5137-464d-45e3-84be-54e5fa09ea89" tests="1" failures="0" errors="0" time="0.140">
+    <testcase name="Status code is 200" time="0.140"/>
+  </testsuite>
+  <testsuite name="加入团队账号 / 团队信息-创建的团队" id="ace5198d-1464-4968-83d5-8065ca208a51" tests="5" failures="0" errors="0" time="0.115">
+    <testcase name="Status code is 200" time="0.115"/>
+    <testcase name="Successful POST request" time="0.115"/>
+    <testcase name="msg==ok" time="0.115"/>
+    <testcase name="ret==0" time="0.115"/>
+  </testsuite>
+  <testsuite name="名片相关 / 设置用户个人简介接口" id="1c80837c-2420-4a97-acd9-36e0f3d34234" tests="4" failures="0" errors="0" time="0.109">
+    <testcase name="Status code is 200" time="0.109"/>
+    <testcase name="Successful POST request" time="0.109"/>
+    <testcase name="msg==ok" time="0.109"/>
+    <testcase name="ret==0" time="0.109"/>
+  </testsuite>
+  <testsuite name="名片相关 / 设置用户从业经历" id="cd41233e-a006-460c-8a47-26bcff549a16" tests="2" failures="0" errors="0" time="0.113">
+    <testcase name="Status code is 200" time="0.113"/>
+    <testcase name="msg==您添加的个人经历有时间冲突，请确认后重新输入" time="0.113"/>
+  </testsuite>
+  <testsuite name="名片相关 / 修改用户从业经历" id="f91a246d-851d-4060-ad3a-13be51bc5079" tests="2" failures="0" errors="0" time="0.104">
+    <testcase name="Status code is 200" time="0.104"/>
+    <testcase name="msg==您添加的个人经历有时间冲突，请确认后重新输入" time="0.104"/>
+  </testsuite>
+  <testsuite name="名片相关 / 删除用户从业经历" id="82682f5c-843b-4f4a-b8d7-5ea5209eff48" tests="0" failures="0" errors="0" time="0.101"/>
+  <testsuite name="名片相关 / 设置用户个人荣誉" id="5c39af5a-4d53-44cf-909b-ed05358c1f4a" tests="4" failures="0" errors="0" time="0.121">
+    <testcase name="Status code is 200" time="0.121"/>
+    <testcase name="Successful POST request" time="0.121"/>
+    <testcase name="msg==ok" time="0.121"/>
+    <testcase name="ret==0" time="0.121"/>
+  </testsuite>
+  <testsuite name="名片相关 / 修改用户个人荣誉" id="8a06f4a0-f3f2-4933-a3b6-349a50ea0003" tests="4" failures="0" errors="0" time="0.106">
+    <testcase name="Status code is 200" time="0.106"/>
+    <testcase name="Successful POST request" time="0.106"/>
+    <testcase name="msg==ok" time="0.106"/>
+    <testcase name="ret==0" time="0.106"/>
+  </testsuite>
+  <testsuite name="名片相关 / 删除用户个人荣誉" id="eb589e5c-a475-4114-993f-53034696524f" tests="4" failures="0" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+    <testcase name="Successful POST request" time="0.105"/>
+    <testcase name="msg==ok" time="0.105"/>
+    <testcase name="ret==0" time="0.105"/>
+  </testsuite>
+  <testsuite name="名片相关 / 查询用户名片信息接口+头像请求" id="c87f41f4-8eaf-45ab-8a86-47d34f7b7234" tests="4" failures="0" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100"/>
+    <testcase name="Successful POST request" time="0.100"/>
+    <testcase name="msg==ok" time="0.100"/>
+  </testsuite>
+  <testsuite name="名片相关 / 得到名片分享链接" id="29e5a2f5-d73b-4526-a9e0-fe5d5beef21f" tests="0" failures="0" errors="0" time="0.091"/>
+  <testsuite name="团队相关 / 团队信息-加入的团队" id="3f1d0c11-b476-4b91-af0c-0e7b767759fc" tests="0" failures="0" errors="0" time="0.107"/>
+  <testsuite name="团队相关 / 加入团队的邀请链接" id="e55658c5-4ef7-4b3f-8284-3a55a68abaab" tests="0" failures="0" errors="0" time="0.108"/>
+  <testsuite name="团队相关 / 加入团队" id="65d7c447-c7b3-4065-9027-e56d3b05d5b3" tests="0" failures="0" errors="0" time="0.119"/>
+  <testsuite name="团队相关 / 团队结构-创建的团队" id="3edabf2e-14e3-46eb-8a3e-cf8f9b5d16d3" tests="4" failures="0" errors="0" time="0.213">
+    <testcase name="Status code is 200" time="0.213"/>
+    <testcase name="Successful POST request" time="0.213"/>
+    <testcase name="msg==ok" time="0.213"/>
+    <testcase name="ret==0" time="0.213"/>
+  </testsuite>
+  <testsuite name="团队相关 / 团队结构-加入的团队" id="5eae13b5-57e7-4d87-89c5-105c4563c6cb" tests="4" failures="0" errors="0" time="0.227">
+    <testcase name="Status code is 200" time="0.227"/>
+    <testcase name="Successful POST request" time="0.227"/>
+    <testcase name="msg==ok" time="0.227"/>
+    <testcase name="ret==0" time="0.227"/>
+  </testsuite>
+  <testsuite name="团队相关 / 团队成员信息" id="e28b9693-2609-4884-8381-2485e18a1e58" tests="4" failures="0" errors="0" time="0.117">
+    <testcase name="Status code is 200" time="0.117"/>
+    <testcase name="Successful POST request" time="0.117"/>
+    <testcase name="msg==ok" time="0.117"/>
+    <testcase name="ret==0" time="0.117"/>
+  </testsuite>
+  <testsuite name="团队相关 / 团队或个人搜索？" id="68f3c35d-4013-47a2-8d7d-548219359d51" tests="1" failures="0" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+  </testsuite>
+  <testsuite name="团队相关 / 查询团队申请列表" id="19704473-e906-4f45-80ec-d45a5813f1a3" tests="4" failures="0" errors="0" time="0.108">
+    <testcase name="Status code is 200" time="0.108"/>
+    <testcase name="Successful POST request" time="0.108"/>
+    <testcase name="msg==ok" time="0.108"/>
+    <testcase name="ret==0" time="0.108"/>
+  </testsuite>
+  <testsuite name="团队相关 / 处理团队申请接口--待处理" id="7722d5a1-63dc-408b-85ab-6974363c1dcb" tests="2" failures="0" errors="0" time="0.119">
+    <testcase name="msg==未查询到申请，请刷新后再试" time="0.119"/>
+    <testcase name="ret==-1" time="0.119"/>
+  </testsuite>
+  <testsuite name="团队相关 / 发送移除团队成员验证码" id="efc5853d-1dfa-4421-b75e-7f5e71e11697" tests="5" failures="0" errors="0" time="0.108">
+    <testcase name="Status code is 200" time="0.108"/>
+    <testcase name="Successful POST request" time="0.108"/>
+    <testcase name="msg==OK" time="0.108"/>
+    <testcase name="ret==0" time="0.108"/>
+  </testsuite>
+  <testsuite name="团队相关 / 团队结构(不包含成员)" id="6f349316-9d75-4d3f-9897-fff75e82ba43" tests="4" failures="0" errors="0" time="0.148">
+    <testcase name="Status code is 200" time="0.148"/>
+    <testcase name="Successful POST request" time="0.148"/>
+    <testcase name="msg==ok" time="0.148"/>
+    <testcase name="ret==0" time="0.148"/>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 添加团队文化" id="f4b6252a-9864-46fa-8e71-f1cae1d8e592" tests="4" failures="0" errors="0" time="0.113">
+    <testcase name="Status code is 200" time="0.113"/>
+    <testcase name="Successful POST request" time="0.113"/>
+    <testcase name="msg==ok" time="0.113"/>
+    <testcase name="ret==0" time="0.113"/>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 团队文化列表" id="a038c0b1-0f7a-4912-bc8f-442ffd60fc70" tests="4" failures="0" errors="0" time="0.112">
+    <testcase name="Status code is 200" time="0.112"/>
+    <testcase name="Successful POST request" time="0.112"/>
+    <testcase name="msg==ok" time="0.112"/>
+    <testcase name="ret==0" time="0.112"/>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 添加团队招募" id="01026cef-3c6b-4127-8441-474a64ecd103" tests="4" failures="2" errors="0" time="0.116">
+    <testcase name="Status code is 200" time="0.116"/>
+    <testcase name="Successful POST request" time="0.116"/>
+    <testcase name="msg==ok" time="0.116" classname="团队文化和招募 / 添加团队招募">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 添加团队招募.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '抱歉，开始时间不能小于当前时间' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '抱歉，开始时间不能小于当前时间' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.116" classname="团队文化和招募 / 添加团队招募">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 添加团队招募.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -1 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -1 to deeply equal 0
+   at Object.eval sandbox-script.js:4:26).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 团队招募列表" id="9a804a25-04fa-4b4d-8ce2-205979d43968" tests="4" failures="0" errors="0" time="0.135">
+    <testcase name="Status code is 200" time="0.135"/>
+    <testcase name="Successful POST request" time="0.135"/>
+    <testcase name="msg==ok" time="0.135"/>
+    <testcase name="ret==0" time="0.135"/>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 团队文化详情" id="bc007246-36d1-4fa3-bfc0-f365cd444c56" tests="4" failures="0" errors="0" time="0.123">
+    <testcase name="Status code is 200" time="0.123"/>
+    <testcase name="Successful POST request" time="0.123"/>
+    <testcase name="msg==ok" time="0.123"/>
+    <testcase name="ret==0" time="0.123"/>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 团队招募详情" id="17676afc-9d96-44ac-9fc2-7eea3686eab8" tests="4" failures="0" errors="0" time="0.111">
+    <testcase name="Status code is 200" time="0.111"/>
+    <testcase name="Successful POST request" time="0.111"/>
+    <testcase name="msg==ok" time="0.111"/>
+    <testcase name="ret==0" time="0.111"/>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 报名招募" id="abedb228-6254-4033-812b-33587027f6e9" tests="4" failures="0" errors="0" time="0.124">
+    <testcase name="Status code is 200" time="0.124"/>
+    <testcase name="Successful POST request" time="0.124"/>
+    <testcase name="msg==ok" time="0.124"/>
+    <testcase name="ret==0" time="0.124"/>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 生成团队文化分享链接" id="6df38d2f-661f-42a8-b9f5-cfe58c6d5e6a" tests="4" failures="0" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+    <testcase name="Successful POST request" time="0.105"/>
+    <testcase name="msg==ok" time="0.105"/>
+    <testcase name="ret==0" time="0.105"/>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 生成招募活动分享链接" id="9577539f-46c6-4df4-af5f-dd98a2620476" tests="4" failures="0" errors="0" time="0.104">
+    <testcase name="Status code is 200" time="0.104"/>
+    <testcase name="Successful POST request" time="0.104"/>
+    <testcase name="msg==ok" time="0.104"/>
+    <testcase name="ret==0" time="0.104"/>
+  </testsuite>
+  <testsuite name="报告相关 / 新增日报接口" id="5b86c15a-c9fc-4eb6-97d3-0fc5f5883914" tests="4" failures="0" errors="0" time="0.119">
+    <testcase name="Status code is 200" time="0.119"/>
+    <testcase name="Successful POST request" time="0.119"/>
+    <testcase name="msg==ok" time="0.119"/>
+    <testcase name="ret==0" time="0.119"/>
+  </testsuite>
+  <testsuite name="报告相关 / 新增日报接口-成员新增日报" id="2c86885e-d91e-49ba-8bd5-6a753b160cb9" tests="4" failures="0" errors="0" time="0.119">
+    <testcase name="Status code is 200" time="0.119"/>
+    <testcase name="Successful POST request" time="0.119"/>
+    <testcase name="msg==您已创建日报，无法重复创建" time="0.119"/>
+    <testcase name="ret==-1" time="0.119"/>
+  </testsuite>
+  <testsuite name="报告相关 / 新增周报接口" id="395c5bbf-fce3-4518-8247-d042fe9de070" tests="3" failures="0" errors="0" time="0.110">
+    <testcase name="Status code is 200" time="0.110"/>
+    <testcase name="msg==ok" time="0.110"/>
+    <testcase name="ret==0" time="0.110"/>
+  </testsuite>
+  <testsuite name="报告相关 / 新增周报接口-成员新增周报" id="2a00e0c5-cade-42c8-8607-f874c272ff2c" tests="4" failures="0" errors="0" time="0.111">
+    <testcase name="Status code is 200" time="0.111"/>
+    <testcase name="Successful POST request" time="0.111"/>
+    <testcase name="msg==您已创建本周周报，无法重复创建" time="0.111"/>
+    <testcase name="ret==-1" time="0.111"/>
+  </testsuite>
+  <testsuite name="报告相关 / 新增月报" id="96f67697-4eda-41c8-b7b1-22ac13d99d1b" tests="4" failures="0" errors="0" time="0.121">
+    <testcase name="Status code is 200" time="0.121"/>
+    <testcase name="Successful POST request" time="0.121"/>
+    <testcase name="msg==ok" time="0.121"/>
+    <testcase name="ret==0" time="0.121"/>
+  </testsuite>
+  <testsuite name="报告相关 / 新增月报-成员新增月报" id="66c423e3-ea6c-49ac-9c0b-021e004c3872" tests="4" failures="0" errors="0" time="0.117">
+    <testcase name="Status code is 200" time="0.117"/>
+    <testcase name="Successful POST request" time="0.117"/>
+    <testcase name="msg==您已创建本月月报，无法重复创建" time="0.117"/>
+    <testcase name="ret==-1" time="0.117"/>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-日报-查看自己创建的日报列表-管理员" id="43e59262-6f41-4918-a624-8b6dd9ef17ee" tests="4" failures="0" errors="0" time="0.112">
+    <testcase name="Status code is 200" time="0.112"/>
+    <testcase name="Successful POST request" time="0.112"/>
+    <testcase name="msg==ok" time="0.112"/>
+    <testcase name="ret==0" time="0.112"/>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-周报-查看自己创建的日报列表-成员" id="ce025814-d2bc-4c19-a582-23d5b8ebeda0" tests="4" failures="0" errors="0" time="0.134">
+    <testcase name="Status code is 200" time="0.134"/>
+    <testcase name="Successful POST request" time="0.134"/>
+    <testcase name="msg==ok" time="0.134"/>
+    <testcase name="ret==0" time="0.134"/>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-周报-查看自己创建的周报列表-管理员" id="fab5c4ec-0969-4e71-8335-390141ac6abc" tests="4" failures="0" errors="0" time="0.116">
+    <testcase name="Status code is 200" time="0.116"/>
+    <testcase name="Successful POST request" time="0.116"/>
+    <testcase name="msg==ok" time="0.116"/>
+    <testcase name="ret==0" time="0.116"/>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-周报-查看自己创建的周报列表-成员" id="18078009-9fed-4de5-810f-c9e21a9ac6af" tests="4" failures="0" errors="0" time="0.117">
+    <testcase name="Status code is 200" time="0.117"/>
+    <testcase name="Successful POST request" time="0.117"/>
+    <testcase name="msg==ok" time="0.117"/>
+    <testcase name="ret==0" time="0.117"/>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-周报-查看自己创建的月报列表-成员" id="74fcddb3-e019-4915-8c22-a2892f94932c" tests="4" failures="0" errors="0" time="0.110">
+    <testcase name="Status code is 200" time="0.110"/>
+    <testcase name="Successful POST request" time="0.110"/>
+    <testcase name="msg==ok" time="0.110"/>
+    <testcase name="ret==0" time="0.110"/>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-月报-查看自己创建的月报列表-管理员" id="8c74bfd0-94aa-4c3c-aab4-7af430acc00c" tests="4" failures="0" errors="0" time="0.115">
+    <testcase name="Status code is 200" time="0.115"/>
+    <testcase name="Successful POST request" time="0.115"/>
+    <testcase name="msg==ok" time="0.115"/>
+    <testcase name="ret==0" time="0.115"/>
+  </testsuite>
+  <testsuite name="报告相关 / 报告已读接口-管理员登录-查看日报" id="3fbb95ea-c098-46c8-9215-be0b94572fa7" tests="4" failures="0" errors="0" time="0.110">
+    <testcase name="Status code is 200" time="0.110"/>
+    <testcase name="Successful POST request" time="0.110"/>
+    <testcase name="ret==0" time="0.110"/>
+    <testcase name="msg==ok" time="0.110"/>
+  </testsuite>
+  <testsuite name="报告相关 / 报告已读接口-管理员登录-周报" id="23a50f5b-889d-473e-be03-d5affe7d562a" tests="4" failures="0" errors="0" time="0.118">
+    <testcase name="Status code is 200" time="0.118"/>
+    <testcase name="Successful POST request" time="0.118"/>
+    <testcase name="ret==0" time="0.118"/>
+    <testcase name="msg==已读状态修改失败" time="0.118"/>
+  </testsuite>
+  <testsuite name="报告相关 / 报告已读接口-管理员登录-查看月报" id="4eab1659-8429-4e42-b0c6-de210e96e8ab" tests="4" failures="0" errors="0" time="0.111">
+    <testcase name="Status code is 200" time="0.111"/>
+    <testcase name="Successful POST request" time="0.111"/>
+    <testcase name="ret==0" time="0.111"/>
+    <testcase name="msg==已读状态修改失败" time="0.111"/>
+  </testsuite>
+  <testsuite name="报告相关 / 修改报告接口-成员修改日报" id="c8718030-015f-4463-aa12-2147d9f6b73e" tests="1" failures="0" errors="0" time="0.111">
+    <testcase name="Status code is 200" time="0.111"/>
+  </testsuite>
+  <testsuite name="报告相关 / 删除报告接口-日报-成员删除自己的日报" id="2ca0283d-c3f0-4fb6-83a7-9924c5afcc0d" tests="3" failures="0" errors="0" time="0.133">
+    <testcase name="Status code is 200" time="0.133"/>
+    <testcase name="Successful POST request" time="0.133"/>
+    <testcase name="msg==您删除的报告不存在，请刷新后再试" time="0.133"/>
+  </testsuite>
+  <testsuite name="报告相关 / 删除报告接口-日报-管理员删除成员的日报" id="cef44794-5cb2-4999-a815-5b3ae39de339" tests="4" failures="0" errors="0" time="0.117">
+    <testcase name="Status code is 200" time="0.117"/>
+    <testcase name="Successful POST request" time="0.117"/>
+    <testcase name="msg==删除成功" time="0.117"/>
+    <testcase name="ret==0" time="0.117"/>
+  </testsuite>
+  <testsuite name="报告相关 / 删除报告接口-周报-成员删除自己的周报" id="75cf9b9c-e3ee-41bf-9c90-4b9c5979115b" tests="3" failures="0" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+    <testcase name="Successful POST request" time="0.105"/>
+    <testcase name="msg==您删除的报告不存在，请刷新后再试" time="0.105"/>
+  </testsuite>
+  <testsuite name="报告相关 / 删除报告接口-月报-成员删除自己的月报" id="329152ca-7bea-4c55-82a2-c47afbce3e22" tests="4" failures="0" errors="0" time="0.124">
+    <testcase name="Status code is 200" time="0.124"/>
+    <testcase name="Successful POST request" time="0.124"/>
+    <testcase name="msg==删除成功" time="0.124"/>
+    <testcase name="ret==0" time="0.124"/>
+  </testsuite>
+  <testsuite name="报告相关 / 新增日报接口" id="8c06f6ac-bd67-4980-bd7e-9a11a14adc75" tests="4" failures="2" errors="0" time="0.104">
+    <testcase name="Status code is 200" time="0.104"/>
+    <testcase name="Successful POST request" time="0.104"/>
+    <testcase name="msg==ok" time="0.104" classname="报告相关 / 新增日报接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 新增日报接口.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '您已创建日报，无法重复创建' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '您已创建日报，无法重复创建' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:53).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.104" classname="报告相关 / 新增日报接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 新增日报接口.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -1 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -1 to deeply equal 0
+   at Object.eval sandbox-script.js:4:53).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队培训 / 创建培训接口-线上培训" id="31e15b2f-0d00-408d-8ecf-1addfeef0405" tests="4" failures="2" errors="0" time="0.128">
+    <testcase name="Status code is 200" time="0.128"/>
+    <testcase name="Successful POST request" time="0.128"/>
+    <testcase name="msg==ok" time="0.128" classname="团队培训 / 创建培训接口-线上培训">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 创建培训接口-线上培训.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '抱歉，存在非法的文件ID' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '抱歉，存在非法的文件ID' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:54).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.128" classname="团队培训 / 创建培训接口-线上培训">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 创建培训接口-线上培训.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -1 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -1 to deeply equal 0
+   at Object.eval sandbox-script.js:4:54).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队培训 / 创建培训接口-线下培训" id="dfaed16d-bff0-427b-b485-50db29df3691" tests="4" failures="0" errors="0" time="0.122">
+    <testcase name="Status code is 200" time="0.122"/>
+    <testcase name="Successful POST request" time="0.122"/>
+    <testcase name="msg==ok" time="0.122"/>
+    <testcase name="ret==0" time="0.122"/>
+  </testsuite>
+  <testsuite name="团队培训 / 查询团队培训列表-管理员查看自己团队培训" id="4d947ad1-6e62-40c9-ad35-93bf501ba9d9" tests="4" failures="0" errors="0" time="0.113">
+    <testcase name="Status code is 200" time="0.113"/>
+    <testcase name="Successful POST request" time="0.113"/>
+    <testcase name="msg==ok" time="0.113"/>
+    <testcase name="ret==0" time="0.113"/>
+  </testsuite>
+  <testsuite name="团队培训 / 查询团队培训列表-成员查看团队培训" id="cacadaf9-b78f-4025-a676-0df01a62769f" tests="4" failures="0" errors="0" time="0.115">
+    <testcase name="Status code is 200" time="0.115"/>
+    <testcase name="Successful POST request" time="0.115"/>
+    <testcase name="msg==ok" time="0.115"/>
+    <testcase name="ret==0" time="0.115"/>
+  </testsuite>
+  <testsuite name="团队培训 / 查询团队培训列表-成员查看已报名的团队培训" id="79a8b143-e3af-4d49-887d-b65d250ad987" tests="4" failures="0" errors="0" time="0.117">
+    <testcase name="Status code is 200" time="0.117"/>
+    <testcase name="Successful POST request" time="0.117"/>
+    <testcase name="msg==ok" time="0.117"/>
+    <testcase name="ret==0" time="0.117"/>
+  </testsuite>
+  <testsuite name="团队培训 / 培训报名接口" id="3f8e6f8c-b32c-4106-9cfa-4e54902e37d8" tests="3" failures="0" errors="0" time="0.118">
+    <testcase name="Status code is 200" time="0.118"/>
+    <testcase name="msg==ok" time="0.118"/>
+    <testcase name="ret==0" time="0.118"/>
+  </testsuite>
+  <testsuite name="团队培训 / 培训搜索接口--管理员搜索" id="733d2a02-939d-4c32-a78d-350d8182868c" tests="3" failures="0" errors="0" time="0.109">
+    <testcase name="Status code is 200" time="0.109"/>
+    <testcase name="msg==ok" time="0.109"/>
+    <testcase name="ret==0" time="0.109"/>
+  </testsuite>
+  <testsuite name="团队培训 / 培训搜索接口--团队成员搜索" id="50b28b6c-5886-447e-b06a-d59df5b868a9" tests="3" failures="0" errors="0" time="0.113">
+    <testcase name="Status code is 200" time="0.113"/>
+    <testcase name="msg==ok" time="0.113"/>
+    <testcase name="ret==0" time="0.113"/>
+  </testsuite>
+  <testsuite name="团队培训 / 培训搜索接口--团队成员搜索已报名" id="70171013-6bac-4654-9004-424e5b01ca92" tests="3" failures="0" errors="0" time="0.117">
+    <testcase name="Status code is 200" time="0.117"/>
+    <testcase name="msg==ok" time="0.117"/>
+    <testcase name="ret==0" time="0.117"/>
+  </testsuite>
+  <testsuite name="团队培训 / 培训详情--管理员查看" id="6b1f8172-d37c-4bc6-83df-0c5a243a5ccd" tests="4" failures="0" errors="0" time="0.115">
+    <testcase name="Status code is 200" time="0.115"/>
+    <testcase name="Successful POST request" time="0.115"/>
+    <testcase name="msg==ok" time="0.115"/>
+    <testcase name="ret==0" time="0.115"/>
+  </testsuite>
+  <testsuite name="团队培训 / 培训详情--成员查看培训" id="afbbe22e-8da0-4636-aeeb-485e2b7c7215" tests="4" failures="0" errors="0" time="0.118">
+    <testcase name="Status code is 200" time="0.118"/>
+    <testcase name="Successful POST request" time="0.118"/>
+    <testcase name="msg==ok" time="0.118"/>
+    <testcase name="ret==0" time="0.118"/>
+  </testsuite>
+  <testsuite name="团队培训 / 创建培训接口-线上培训 -测试删除" id="83a9ba36-9827-4bbc-80ea-02fa16b8471e" tests="4" failures="2" errors="0" time="0.115">
+    <testcase name="Status code is 200" time="0.115"/>
+    <testcase name="Successful POST request" time="0.115"/>
+    <testcase name="msg==ok" time="0.115" classname="团队培训 / 创建培训接口-线上培训 -测试删除">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 创建培训接口-线上培训 -测试删除.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '抱歉，存在非法的文件ID' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '抱歉，存在非法的文件ID' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:65).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.115" classname="团队培训 / 创建培训接口-线上培训 -测试删除">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 创建培训接口-线上培训 -测试删除.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -1 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -1 to deeply equal 0
+   at Object.eval sandbox-script.js:4:65).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队培训 / 查询团队培训列表-测试删除" id="4b425167-038e-4d4e-bcb6-89acfb7efab6" tests="4" failures="0" errors="0" time="0.109">
+    <testcase name="Status code is 200" time="0.109"/>
+    <testcase name="Successful POST request" time="0.109"/>
+    <testcase name="msg==ok" time="0.109"/>
+    <testcase name="ret==0" time="0.109"/>
+  </testsuite>
+  <testsuite name="团队培训 / 删除培训-管理员删除培训" id="f7ef0cdd-9d5a-4923-b719-6ce47d13e053" tests="4" failures="0" errors="0" time="0.113">
+    <testcase name="Status code is 200" time="0.113"/>
+    <testcase name="Successful POST request" time="0.113"/>
+    <testcase name="msg==ok" time="0.113"/>
+    <testcase name="ret==0" time="0.113"/>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 添加-资讯" id="5510ce3b-8684-420b-aac5-e3f72e95d4bc" tests="4" failures="0" errors="0" time="0.131">
+    <testcase name="Status code is 200" time="0.131"/>
+    <testcase name="Successful POST request" time="0.131"/>
+    <testcase name="msg==ok" time="0.131"/>
+    <testcase name="ret==0" time="0.131"/>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 添加-公告" id="20fea241-5ce4-45b1-8f9f-c183a6b81e56" tests="4" failures="0" errors="0" time="0.127">
+    <testcase name="Status code is 200" time="0.127"/>
+    <testcase name="Successful POST request" time="0.127"/>
+    <testcase name="msg==ok" time="0.127"/>
+    <testcase name="ret==0" time="0.127"/>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 列表-团队公告-管理员查看" id="25160636-ed8f-41bf-bc84-e1219cdb451b" tests="4" failures="0" errors="0" time="0.110">
+    <testcase name="Status code is 200" time="0.110"/>
+    <testcase name="Successful POST request" time="0.110"/>
+    <testcase name="msg==ok" time="0.110"/>
+    <testcase name="ret==0" time="0.110"/>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 列表-团队资讯-管理员查看" id="c6c95186-040e-4389-ba6c-bacbd3ba97ff" tests="4" failures="0" errors="0" time="0.139">
+    <testcase name="Status code is 200" time="0.139"/>
+    <testcase name="Successful POST request" time="0.139"/>
+    <testcase name="msg==ok" time="0.139"/>
+    <testcase name="ret==0" time="0.139"/>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 公告已读接口" id="def64a51-9563-4f41-9e98-74d1f54ac4e6" tests="4" failures="0" errors="0" time="0.171">
+    <testcase name="Status code is 200" time="0.171"/>
+    <testcase name="Successful POST request" time="0.171"/>
+    <testcase name="msg==ok" time="0.171"/>
+    <testcase name="ret==0" time="0.171"/>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 详情(已屏蔽, 仅用于推送跳转)--管理员查看详情" id="788b51b4-ae1d-4800-971c-b2d7da872b41" tests="4" failures="0" errors="0" time="0.159">
+    <testcase name="Status code is 200" time="0.159"/>
+    <testcase name="Successful POST request" time="0.159"/>
+    <testcase name="msg==ok" time="0.159"/>
+    <testcase name="ret==0" time="0.159"/>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 详情(已屏蔽, 仅用于推送跳转)--成员查看详情" id="c459c477-a28b-4f8c-a3fe-0802d9778c6a" tests="4" failures="0" errors="0" time="0.139">
+    <testcase name="Status code is 200" time="0.139"/>
+    <testcase name="Successful POST request" time="0.139"/>
+    <testcase name="msg==ok" time="0.139"/>
+    <testcase name="ret==0" time="0.139"/>
+  </testsuite>
+  <testsuite name="日程 / 添加日程" id="cb1dc547-5ed6-4eea-a7a2-0ba9d94b8a79" tests="4" failures="0" errors="0" time="0.120">
+    <testcase name="Status code is 200" time="0.120"/>
+    <testcase name="Successful POST request" time="0.120"/>
+    <testcase name="msg==ok" time="0.120"/>
+    <testcase name="ret==0" time="0.120"/>
+  </testsuite>
+  <testsuite name="日程 / 日程总览(范围或月搜索)" id="e0d27812-ce79-4298-8b3e-b32ea1f00b70" tests="1" failures="0" errors="0" time="0.109">
+    <testcase name="Status code is 200" time="0.109"/>
+  </testsuite>
+  <testsuite name="日程 / 某天的日程列表" id="2af8658d-ee80-47ed-8a61-3ab90194ea10" tests="1" failures="0" errors="0" time="0.104">
+    <testcase name="Status code is 200" time="0.104"/>
+  </testsuite>
+  <testsuite name="日程 / 修改日程" id="82f8f3b9-d155-4986-9c58-f454f4077b18" tests="1" failures="0" errors="0" time="0.108">
+    <testcase name="Status code is 200" time="0.108"/>
+  </testsuite>
+  <testsuite name="日程 / 更新日程完成状态" id="1f462b3e-8ddf-4eb8-a65a-e6d681098480" tests="1" failures="0" errors="0" time="0.108">
+    <testcase name="Status code is 200" time="0.108"/>
+  </testsuite>
+  <testsuite name="日程 / 详情(已屏蔽, 仅用于推送跳转)--成员查看详情" id="09129f01-7a2a-4491-ba6a-7178929b1100" tests="4" failures="0" errors="0" time="0.106">
+    <testcase name="Status code is 200" time="0.106"/>
+    <testcase name="Successful POST request" time="0.106"/>
+    <testcase name="msg==ok" time="0.106"/>
+    <testcase name="ret==0" time="0.106"/>
+  </testsuite>
+  <testsuite name="网盘 / 获取网盘文件列表接口" id="0c30d358-a946-4c76-b9d0-60f0240a7399" tests="4" failures="0" errors="1" time="0.109">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iFileId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.109"/>
+    <testcase name="Successful POST request" time="0.109"/>
+    <testcase name="msg==ok" time="0.109"/>
+    <testcase name="ret==0" time="0.109"/>
+  </testsuite>
+  <testsuite name="网盘 / 网盘文件搜索" id="79945783-0af4-420f-ac58-ffa5ca477e2b" tests="4" failures="0" errors="0" time="0.118">
+    <testcase name="Status code is 200" time="0.118"/>
+    <testcase name="Successful POST request" time="0.118"/>
+    <testcase name="msg==ok" time="0.118"/>
+    <testcase name="ret==0" time="0.118"/>
+  </testsuite>
+  <testsuite name="网盘 / 获取网盘文件下载连接接口" id="7bcfde26-267d-4b94-b379-a835a2d0c8b4" tests="4" failures="2" errors="0" time="0.113">
+    <testcase name="Status code is 200" time="0.113"/>
+    <testcase name="Successful POST request" time="0.113"/>
+    <testcase name="msg==ok" time="0.113" classname="网盘 / 获取网盘文件下载连接接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 网盘 / 获取网盘文件下载连接接口.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '非法的文件ID' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '非法的文件ID' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:83).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.113" classname="网盘 / 获取网盘文件下载连接接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 网盘 / 获取网盘文件下载连接接口.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -1 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -1 to deeply equal 0
+   at Object.eval sandbox-script.js:4:83).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="网盘 / 查询网盘容量信息接口" id="62fb8529-0706-4f2a-8cfa-4ebed87f89c6" tests="4" failures="0" errors="0" time="0.132">
+    <testcase name="Status code is 200" time="0.132"/>
+    <testcase name="Successful POST request" time="0.132"/>
+    <testcase name="msg==ok" time="0.132"/>
+    <testcase name="ret==0" time="0.132"/>
+  </testsuite>
+  <testsuite name="必达 / 创建必达" id="c4088866-b353-4a42-b1ec-43b3956df9a1" tests="3" failures="1" errors="0" time="0.140">
+    <testcase name="Status code is 200" time="0.140"/>
+    <testcase name="msg==" time="0.140" classname="必达 / 创建必达">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 创建必达.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '抱歉，必达失效时间不合法' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '抱歉，必达失效时间不合法' to deeply equal ''
+   at Object.eval sandbox-script.js:2:85).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.140"/>
+  </testsuite>
+  <testsuite name="必达 / 团队管理者查询必达列表接口" id="2b5d3931-6a50-4873-96ab-fa129182547c" tests="1" failures="0" errors="1" time="0.111">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iPromiseId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.111"/>
+  </testsuite>
+  <testsuite name="必达 / 团队成员收到的必达列表接口" id="b11a8b63-9652-45e7-a0a0-1e43788312f2" tests="1" failures="0" errors="1" time="0.116">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iPromiseId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.116"/>
+  </testsuite>
+  <testsuite name="必达 / 必达详情内容接口-必达创建者查看必达" id="5cfe9155-7d8b-44a4-8a62-a4b34bf4b7af" tests="3" failures="1" errors="0" time="0.113">
+    <testcase name="Status code is 200" time="0.113"/>
+    <testcase name="msg==" time="0.113" classname="必达 / 必达详情内容接口-必达创建者查看必达">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达详情内容接口-必达创建者查看必达.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '抱歉，您查询的必达信息不存在,请刷新后再试' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '抱歉，您查询的必达信息不存在,请刷新后再试' to deeply equal ''
+   at Object.eval sandbox-script.js:2:88).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.113"/>
+  </testsuite>
+  <testsuite name="必达 / 必达详情内容接口-必达接收者查看必达" id="f71b4722-87ba-4e5d-9fcf-0a88634c85d4" tests="3" failures="1" errors="0" time="0.112">
+    <testcase name="Status code is 200" time="0.112"/>
+    <testcase name="msg==" time="0.112" classname="必达 / 必达详情内容接口-必达接收者查看必达">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达详情内容接口-必达接收者查看必达.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '抱歉，您查询的必达信息不存在,请刷新后再试' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '抱歉，您查询的必达信息不存在,请刷新后再试' to deeply equal ''
+   at Object.eval sandbox-script.js:2:89).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.112"/>
+  </testsuite>
+  <testsuite name="必达 / 必达确认已读接口" id="a8bd642e-0d2d-4b47-bd21-47044af7843f" tests="3" failures="1" errors="0" time="0.110">
+    <testcase name="Status code is 200" time="0.110"/>
+    <testcase name="msg==" time="0.110" classname="必达 / 必达确认已读接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达确认已读接口.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '非法的必达记录ID' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '非法的必达记录ID' to deeply equal ''
+   at Object.eval sandbox-script.js:2:90).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.110"/>
+  </testsuite>
+  <testsuite name="必达 / 必达刷新提醒-管理员刷新" id="2919050f-c952-4625-b89e-7fd91efd1abc" tests="3" failures="1" errors="0" time="0.111">
+    <testcase name="Status code is 200" time="0.111"/>
+    <testcase name="msg==" time="0.111" classname="必达 / 必达刷新提醒-管理员刷新">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达刷新提醒-管理员刷新.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '非法的必达记录ID' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '非法的必达记录ID' to deeply equal ''
+   at Object.eval sandbox-script.js:2:91).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.111"/>
+  </testsuite>
+  <testsuite name="必达 / 必达撤回接口-管理员撤回" id="f90950fa-8b74-4f28-ad14-0ff2a15c2e63" tests="3" failures="1" errors="0" time="0.138">
+    <testcase name="Status code is 200" time="0.138"/>
+    <testcase name="msg==" time="0.138" classname="必达 / 必达撤回接口-管理员撤回">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达撤回接口-管理员撤回.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '非法的必达记录ID' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '非法的必达记录ID' to deeply equal ''
+   at Object.eval sandbox-script.js:2:92).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.138"/>
+  </testsuite>
+  <testsuite name="必达 / 删除必达--成员删除" id="2d8b6306-5960-4a93-80df-de811d4a6f4b" tests="3" failures="1" errors="0" time="0.131">
+    <testcase name="Status code is 200" time="0.131"/>
+    <testcase name="msg==" time="0.131" classname="必达 / 删除必达--成员删除">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 删除必达--成员删除.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '非法的必达记录ID' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '非法的必达记录ID' to deeply equal ''
+   at Object.eval sandbox-script.js:2:93).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.131"/>
+  </testsuite>
+  <testsuite name="必达 / 删除必达--管理员删除" id="a47426de-2359-42d1-abe1-6fa0c82b33dd" tests="3" failures="1" errors="0" time="0.119">
+    <testcase name="Status code is 200" time="0.119"/>
+    <testcase name="msg==" time="0.119" classname="必达 / 删除必达--管理员删除">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 删除必达--管理员删除.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '非法的必达记录ID' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '非法的必达记录ID' to deeply equal ''
+   at Object.eval sandbox-script.js:2:94).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.119"/>
+  </testsuite>
+  <testsuite name="客户管理 / 创建、更新客户信息--待修改" id="531a1b7a-8a7f-4af4-b5e5-ad374907c8ae" tests="1" failures="1" errors="2" time="0.000">
+    <error>
+      <![CDATA[Iteration: 0
+RequestError: TypeError: Header name must be a valid HTTP Token [" "]
+    at validateHeader (_http_outgoing.js:490:11)
+    at ClientRequest.setHeader (_http_outgoing.js:501:3)
+    at new ClientRequest (_http_client.js:173:14)
+    at Object.request (http.js:38:10)
+    at Object.request (https.js:239:15)
+    at Request.start (C:\Users\73016\AppData\Roaming\npm\node_modules\newman\node_modules\postman-request\request.js:799:32)
+    at Request.write (C:\Users\73016\AppData\Roaming\npm\node_modules\newman\node_modules\postman-request\request.js:1545:10)
+    at end (C:\Users\73016\AppData\Roaming\npm\node_modules\newman\node_modules\postman-request\request.js:587:18)
+    at Immediate.<anonymous> (C:\Users\73016\AppData\Roaming\npm\node_modules\newman\node_modules\postman-request\request.js:616:7)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.000" classname="客户管理 / 创建、更新客户信息--待修改">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 创建、更新客户信息--待修改.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:95).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 查询客户列表接口-重点客户" id="836df2af-0254-433e-aed2-36ded3eb37b7" tests="3" failures="0" errors="0" time="0.112">
+    <testcase name="Status code is 200" time="0.112"/>
+    <testcase name="msg==ok" time="0.112"/>
+    <testcase name="ret==0" time="0.112"/>
+  </testsuite>
+  <testsuite name="客户管理 / 查询客户列表接口-全部客户" id="6b3e0b53-13e9-47de-ab9e-26fe424ad228" tests="1" failures="0" errors="1" time="0.106">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property '0' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.106"/>
+  </testsuite>
+  <testsuite name="客户管理 / 删除客户接口" id="3b057314-9fb3-4695-90e7-3a31a87d7289" tests="1" failures="0" errors="1" time="0.118">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property '0' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.118"/>
+  </testsuite>
+  <testsuite name="客户管理 / 修改客户重点状态-设置重点客户" id="0849fa4b-5d47-48fa-bdcf-44cb606feff0" tests="3" failures="2" errors="0" time="0.115">
+    <testcase name="Status code is 200" time="0.115"/>
+    <testcase name="msg==抱歉，您修改的客户不存在" time="0.115" classname="客户管理 / 修改客户重点状态-设置重点客户">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 修改客户重点状态-设置重点客户.]]>
+        <![CDATA[Test description: msg==抱歉，您修改的客户不存在.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您修改的客户不存在'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您修改的客户不存在'
+   at Object.eval sandbox-script.js:2:99).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.115" classname="客户管理 / 修改客户重点状态-设置重点客户">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 修改客户重点状态-设置重点客户.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:99).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 修改客户重点状态-设置非重点客户" id="0fb07e28-f3bc-434a-bed4-09933bdba5ba" tests="3" failures="2" errors="0" time="0.108">
+    <testcase name="Status code is 200" time="0.108"/>
+    <testcase name="msg==抱歉，您修改的客户不存在" time="0.108" classname="客户管理 / 修改客户重点状态-设置非重点客户">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 修改客户重点状态-设置非重点客户.]]>
+        <![CDATA[Test description: msg==抱歉，您修改的客户不存在.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您修改的客户不存在'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您修改的客户不存在'
+   at Object.eval sandbox-script.js:2:100).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.108" classname="客户管理 / 修改客户重点状态-设置非重点客户">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 修改客户重点状态-设置非重点客户.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:100).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 创建客户保单信息接口---非该用户" id="6d2f9e1e-9d3e-45f8-bf95-f140ec1f6dc9" tests="0" failures="0" errors="0" time="0.098"/>
+  <testsuite name="客户管理 / 查询客户保单列表" id="314bfb1c-2036-4966-819c-c253dd12a899" tests="3" failures="0" errors="0" time="0.161">
+    <testcase name="Status code is 200" time="0.161"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.161"/>
+    <testcase name="ret==-1" time="0.161"/>
+  </testsuite>
+  <testsuite name="客户管理 / 删除客户保单记录接口" id="d5032eb6-baed-48be-af35-15bd5002719b" tests="3" failures="0" errors="0" time="0.099">
+    <testcase name="Status code is 200" time="0.099"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.099"/>
+    <testcase name="ret==-1" time="0.099"/>
+  </testsuite>
+  <testsuite name="客户管理 / 创建客户跟进记录接口" id="62f07e96-c985-431e-bf27-29ce915b2064" tests="3" failures="0" errors="0" time="0.089">
+    <testcase name="Status code is 200" time="0.089"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.089"/>
+    <testcase name="ret==-1" time="0.089"/>
+  </testsuite>
+  <testsuite name="客户管理 / 查询单个客户跟进记录列表接口" id="8d65520d-3ec3-4e2d-8002-5ce8e274d179" tests="1" failures="0" errors="1" time="0.097">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property '0' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.097"/>
+  </testsuite>
+  <testsuite name="客户管理 / 查询全部客户跟进记录列表接口" id="264d9db8-8081-474e-8151-d05799d903fc" tests="1" failures="0" errors="1" time="0.125">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property '0' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.125"/>
+  </testsuite>
+  <testsuite name="客户管理 / 批量删除跟进记录接口" id="9e7d7137-8e9b-43db-b77c-3c5949d30d5f" tests="3" failures="2" errors="0" time="0.121">
+    <testcase name="Status code is 200" time="0.121"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.121" classname="客户管理 / 批量删除跟进记录接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 批量删除跟进记录接口.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '抱歉，客户跟进记录ID不合法' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '抱歉，客户跟进记录ID不合法' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:107).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.121" classname="客户管理 / 批量删除跟进记录接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 批量删除跟进记录接口.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -4 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -4 to deeply equal -1
+   at Object.eval sandbox-script.js:3:107).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 搜索客户接口" id="66e1f344-1ca3-4e72-a8c3-aec980e7ca2d" tests="3" failures="0" errors="0" time="0.093">
+    <testcase name="Status code is 200" time="0.093"/>
+    <testcase name="msg==ok" time="0.093"/>
+    <testcase name="ret==0" time="0.093"/>
+  </testsuite>
+  <testsuite name="客户管理 / 修改签单和跟进状态接口" id="61cc3371-cfc3-4b7f-99c2-18527be1d51a" tests="3" failures="1" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.100" classname="客户管理 / 修改签单和跟进状态接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 修改签单和跟进状态接口.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '抱歉，客户信息不存在，请刷新后再试' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '抱歉，客户信息不存在，请刷新后再试' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:109).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.100"/>
+  </testsuite>
+  <testsuite name="客户管理 / 月销售简报和重点客户接口" id="87de1c07-d55e-4b18-8b76-f42a853c98b7" tests="3" failures="0" errors="0" time="0.096">
+    <testcase name="Status code is 200" time="0.096"/>
+    <testcase name="msg==ok" time="0.096"/>
+    <testcase name="ret==0" time="0.096"/>
+  </testsuite>
+  <testsuite name="客户管理 / 查询CRM提醒列表--保单提醒-过期" id="41ab473a-a5b2-43f6-98e3-e69994a692fc" tests="3" failures="0" errors="0" time="0.098">
+    <testcase name="Status code is 200" time="0.098"/>
+    <testcase name="msg==ok" time="0.098"/>
+    <testcase name="ret==0" time="0.098"/>
+  </testsuite>
+  <testsuite name="客户管理 / 查询CRM提醒列表--保单提醒-正常" id="8e4fdce8-31a9-476f-8506-cee8de0fbf73" tests="3" failures="0" errors="0" time="0.109">
+    <testcase name="Status code is 200" time="0.109"/>
+    <testcase name="msg==ok" time="0.109"/>
+    <testcase name="ret==0" time="0.109"/>
+  </testsuite>
+  <testsuite name="客户管理 / 查询CRM提醒列表--生日提醒-正常" id="ba32c867-9546-4183-aa5a-046ceb13f770" tests="3" failures="0" errors="0" time="0.094">
+    <testcase name="Status code is 200" time="0.094"/>
+    <testcase name="msg==ok" time="0.094"/>
+    <testcase name="ret==0" time="0.094"/>
+  </testsuite>
+  <testsuite name="客户管理 / 查询CRM提醒列表--跟进提醒-正常" id="7c9792ff-53f1-49dc-af49-4ec2a1ec82a6" tests="3" failures="0" errors="0" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="msg==ok" time="0.101"/>
+    <testcase name="ret==0" time="0.101"/>
+  </testsuite>
+  <testsuite name="客户管理 / 查询CRM提醒列表--保单提醒-过期 Copy" id="ee699d49-c286-4350-87f6-6ffca691c79f" tests="3" failures="0" errors="0" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="msg==ok" time="0.101"/>
+    <testcase name="ret==0" time="0.101"/>
+  </testsuite>
+  <testsuite name="销售工具 / 医疗服务 / 医疗列表" id="21496670-515e-4533-a682-c62d1db99922" tests="3" failures="0" errors="0" time="0.095">
+    <testcase name="Status code is 200" time="0.095"/>
+    <testcase name="msg==ok" time="0.095"/>
+    <testcase name="ret==0" time="0.095"/>
+  </testsuite>
+  <testsuite name="销售工具 / 医疗服务 / 医疗详情" id="0f55b9cc-00d3-45a8-a8b8-86f10d9582ef" tests="3" failures="0" errors="0" time="0.104">
+    <testcase name="Status code is 200" time="0.104"/>
+    <testcase name="msg==ok" time="0.104"/>
+    <testcase name="ret==0" time="0.104"/>
+  </testsuite>
+  <testsuite name="销售工具 / 医疗服务 / 医疗分享链接" id="d12abe1d-a552-47b2-b08d-2c390750afb9" tests="3" failures="0" errors="0" time="0.097">
+    <testcase name="Status code is 200" time="0.097"/>
+    <testcase name="msg==ok" time="0.097"/>
+    <testcase name="ret==0" time="0.097"/>
+  </testsuite>
+  <testsuite name="销售工具 / 医疗服务 / 医疗预约-儿童预约" id="2675199f-05a3-4810-9f63-be187bf5b0d4" tests="3" failures="1" errors="0" time="0.088">
+    <testcase name="Status code is 200" time="0.088"/>
+    <testcase name="msg==抱歉，您的预约项目中包含您预约过的项目，请重新选择" time="0.088" classname="销售工具 / 医疗服务 / 医疗预约-儿童预约">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 医疗服务 / 医疗预约-儿童预约.]]>
+        <![CDATA[Test description: msg==抱歉，您的预约项目中包含您预约过的项目，请重新选择.]]>
+        <![CDATA[Error message: expected '预约时间不能小于当前时间' to deeply equal '抱歉，您的预约项目中包含您预约过的项目，请重新选择'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '预约时间不能小于当前时间' to deeply equal '抱歉，您的预约项目中包含您预约过的项目，请重新选择'
+   at Object.eval sandbox-script.js:2:119).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.088"/>
+  </testsuite>
+  <testsuite name="销售工具 / 医疗服务 / 医疗预约-成人预约" id="196810d7-b305-4030-bc27-98e08db649ed" tests="3" failures="1" errors="0" time="0.093">
+    <testcase name="Status code is 200" time="0.093"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.093" classname="销售工具 / 医疗服务 / 医疗预约-成人预约">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 医疗服务 / 医疗预约-成人预约.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '抱歉，您的预约项目中包含您预约过的项目，请重新选择' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '抱歉，您的预约项目中包含您预约过的项目，请重新选择' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:120).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.093"/>
+  </testsuite>
+  <testsuite name="销售工具 / 酒店服务 / 酒店列表" id="b57b04f9-cd40-4f5f-8dd7-61a70d055e2c" tests="3" failures="0" errors="0" time="0.097">
+    <testcase name="Status code is 200" time="0.097"/>
+    <testcase name="msg==ok" time="0.097"/>
+    <testcase name="ret==0" time="0.097"/>
+  </testsuite>
+  <testsuite name="销售工具 / 酒店服务 / 酒店详情" id="f40eb303-8501-4285-901f-512c19233bba" tests="3" failures="0" errors="0" time="0.097">
+    <testcase name="Status code is 200" time="0.097"/>
+    <testcase name="msg==ok" time="0.097"/>
+    <testcase name="ret==0" time="0.097"/>
+  </testsuite>
+  <testsuite name="销售工具 / 酒店服务 / 酒店分享" id="9f127077-c744-48dd-8629-e55665f19ddb" tests="3" failures="0" errors="0" time="0.106">
+    <testcase name="Status code is 200" time="0.106"/>
+    <testcase name="msg==ok" time="0.106"/>
+    <testcase name="ret==0" time="0.106"/>
+  </testsuite>
+  <testsuite name="销售工具 / 酒店服务 / 酒店预约" id="3cc8d32e-ccfb-4bef-a264-0a9b287590ee" tests="3" failures="0" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100"/>
+    <testcase name="msg==ok" time="0.100"/>
+    <testcase name="ret==0" time="0.100"/>
+  </testsuite>
+  <testsuite name="销售工具 / 专车服务 / 专车列表" id="4eca0e77-3801-4c08-a586-fd4aa4c9b070" tests="3" failures="0" errors="0" time="0.090">
+    <testcase name="Status code is 200" time="0.090"/>
+    <testcase name="msg==ok" time="0.090"/>
+    <testcase name="ret==0" time="0.090"/>
+  </testsuite>
+  <testsuite name="销售工具 / 专车服务 / 专车详情" id="c762aafc-80bc-4e28-bc7d-ad6f155a394c" tests="3" failures="0" errors="0" time="0.109">
+    <testcase name="Status code is 200" time="0.109"/>
+    <testcase name="msg==ok" time="0.109"/>
+    <testcase name="ret==0" time="0.109"/>
+  </testsuite>
+  <testsuite name="销售工具 / 专车服务 / 专车分享" id="564477de-604b-4a6d-ae9b-3249f18e00a9" tests="3" failures="0" errors="0" time="0.102">
+    <testcase name="Status code is 200" time="0.102"/>
+    <testcase name="msg==ok" time="0.102"/>
+    <testcase name="ret==0" time="0.102"/>
+  </testsuite>
+  <testsuite name="销售工具 / 专车服务 / 专车预约" id="41abf06d-f73b-414d-b244-e4ac9205f912" tests="3" failures="0" errors="0" time="0.091">
+    <testcase name="Status code is 200" time="0.091"/>
+    <testcase name="msg==ok" time="0.091"/>
+    <testcase name="ret==0" time="0.091"/>
+  </testsuite>
+  <testsuite name="销售工具 / 银行开户服务 / 银行开户列表" id="7993651a-563b-4438-8bae-7cecec53577a" tests="3" failures="0" errors="0" time="0.087">
+    <testcase name="Status code is 200" time="0.087"/>
+    <testcase name="msg==ok" time="0.087"/>
+    <testcase name="ret==0" time="0.087"/>
+  </testsuite>
+  <testsuite name="销售工具 / 银行开户服务 / 银行开户详情" id="b00ad2f0-b061-45b4-972d-2b37acec32d5" tests="3" failures="0" errors="0" time="0.099">
+    <testcase name="Status code is 200" time="0.099"/>
+    <testcase name="msg==ok" time="0.099"/>
+    <testcase name="ret==0" time="0.099"/>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜详情--给自己投保" id="ff3e6510-7f2a-4fd9-a604-156207ed8617" tests="3" failures="0" errors="0" time="0.111">
+    <testcase name="Status code is 200" time="0.111"/>
+    <testcase name="msg==ok" time="0.111"/>
+    <testcase name="ret==0" time="0.111"/>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜详情--给配偶投保" id="56843f25-8492-48dd-adc7-80d0d7d2eaaf" tests="3" failures="0" errors="0" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="msg==ok" time="0.101"/>
+    <testcase name="ret==0" time="0.101"/>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜详情--给子女投保" id="f7ca7a33-db5d-4cc8-b20f-a83cb27b54b4" tests="3" failures="0" errors="0" time="0.095">
+    <testcase name="Status code is 200" time="0.095"/>
+    <testcase name="msg==ok" time="0.095"/>
+    <testcase name="ret==0" time="0.095"/>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜详情--给孙子投保" id="0480b7dc-9eb6-479e-88c2-cfc6c9761d86" tests="3" failures="0" errors="0" time="0.095">
+    <testcase name="Status code is 200" time="0.095"/>
+    <testcase name="msg==ok" time="0.095"/>
+    <testcase name="ret==0" time="0.095"/>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜补充内容--给自己投保" id="5e67923f-6b8e-49b3-9c6f-d5f16bc3ca16" tests="3" failures="0" errors="0" time="0.111">
+    <testcase name="Status code is 200" time="0.111"/>
+    <testcase name="msg==ok" time="0.111"/>
+    <testcase name="ret==0" time="0.111"/>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜分享链接-没有补充内容" id="02eb999e-bc8f-4cf6-9b59-f82bac4b67fc" tests="3" failures="0" errors="0" time="0.143">
+    <testcase name="Status code is 200" time="0.143"/>
+    <testcase name="msg==ok" time="0.143"/>
+    <testcase name="ret==0" time="0.143"/>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜分享链接-有补充内容" id="dcca06fc-94a7-4a5f-a35a-b1e962a646c5" tests="3" failures="0" errors="0" time="0.102">
+    <testcase name="Status code is 200" time="0.102"/>
+    <testcase name="msg==ok" time="0.102"/>
+    <testcase name="ret==0" time="0.102"/>
+  </testsuite>
+  <testsuite name="财联邦（FMS）相关 / 课程报名" id="93d53839-5ef9-440a-9afe-ee2a466cd4a4" tests="3" failures="0" errors="0" time="0.096">
+    <testcase name="Status code is 200" time="0.096"/>
+    <testcase name="msg==抱歉，您已经提交过报名，请勿重新提交" time="0.096"/>
+    <testcase name="ret==-1" time="0.096"/>
+  </testsuite>
+  <testsuite name="财联邦（FMS）相关 / 得到保险师课程分享链接" id="31da8a3e-f8de-4a4b-b92c-5f179a9bc8ac" tests="3" failures="0" errors="0" time="0.098">
+    <testcase name="Status code is 200" time="0.098"/>
+    <testcase name="msg==ok" time="0.098"/>
+    <testcase name="ret==0" time="0.098"/>
+  </testsuite>
+  <testsuite name="APP内嵌H5界面链接 / 【关于我们】服务协议" id="3a18abcf-abd3-4058-bc2b-c081f9208357" tests="0" failures="0" errors="0" time="0.090"/>
+  <testsuite name="APP内嵌H5界面链接 / 【关于我们】隐私政策" id="1d0e6902-0cb2-49da-9533-f59faf2c42f7" tests="0" failures="0" errors="0" time="0.022"/>
+  <testsuite name="APP内嵌H5界面链接 / 【设置】帮助中心" id="ce9c95e0-8a7c-4fb3-840a-6e909a8ea231" tests="0" failures="0" errors="0" time="0.022"/>
+  <testsuite name="APP内嵌H5界面链接 / 【销售工具】酒店预约" id="7f6b1c52-4267-4e39-998f-02a2c9595ad4" tests="0" failures="0" errors="0" time="0.021"/>
+  <testsuite name="APP内嵌H5界面链接 / 【销售工具】医疗服务" id="f7cbb3cb-9fad-479d-8dbd-d4c244c388d1" tests="0" failures="0" errors="0" time="0.025"/>
+  <testsuite name="APP内嵌H5界面链接 / 【销售工具】专车" id="b43c5ca6-8661-4c80-8d09-4d7aab0206d7" tests="0" failures="0" errors="0" time="0.033"/>
+  <testsuite name="APP内嵌H5界面链接 / 【销售工具】银行开户" id="1a1287cc-3eae-401a-bf20-64c7fecb121a" tests="0" failures="0" errors="0" time="0.020"/>
+  <testsuite name="APP内嵌H5界面链接 / 【销售工具】产品库" id="9db87247-f6d1-4bc3-8f82-52991d0509dd" tests="0" failures="0" errors="0" time="0.018"/>
+  <testsuite name="APP内嵌H5界面链接 / 【行政支持】投保事宜" id="7d979ba6-e4be-4c3b-90c8-2c1c61094af2" tests="0" failures="0" errors="0" time="0.026"/>
+  <testsuite name="APP内嵌H5界面链接 / 【行政支持】付费购买" id="3765065e-5946-4cd0-966f-bcff2940b5b5" tests="0" failures="0" errors="0" time="0.023"/>
+  <testsuite name="未实名认证账号请求 / 手机号登录接口 Copy" id="32fe74bb-5846-4bdd-bdf8-6b15ac83b5d5" tests="2" failures="1" errors="0" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="Schema is valid" time="0.101" classname="未实名认证账号请求 / 手机号登录接口 Copy">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 未实名认证账号请求 / 手机号登录接口 Copy.]]>
+        <![CDATA[Test description: Schema is valid.]]>
+        <![CDATA[Error message: expected false to be true.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be true
+   at Object.eval sandbox-script.js:2:150).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>

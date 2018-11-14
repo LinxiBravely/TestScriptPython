@@ -1,0 +1,56 @@
+1539174566840	geckodriver	INFO	geckodriver 0.18.0
+1539174566923	geckodriver	INFO	Listening on 127.0.0.1:53806
+1539174570370	geckodriver::marionette	INFO	Starting browser d:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1539174579424	Marionette	INFO	Listening on port 53818
+1539174580208	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539174580272	Marionette	DEBUG	[6442450945] Frame script loaded
+1539174580276	Marionette	DEBUG	[6442450945] Frame script registered
+[Child 24964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc1539174806074	Marionette	INFO	Stopped listening on port 53818
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+?wx=ZhangLiYe
+1539174549351	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://apiadmin.bitkinetic.com/auto?wx=ZhangLiYe
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 166: Error: Script error for: devtools/client/shared/vendor/react
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 166: Error: Script error for: devtools/client/shared/vendor/react-prop-types
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 166: Error: Script error for: components/JsonPanel
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js[Parent 20352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539174806017	Marionette	INFO	Stopped listening on port 53621
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+vaScript error: resource://devtools-client-jsonview/lib/require.js, line 166: Error: Script error for: devtools/client/shared/components/tabs/Tabs
+http://requirejs.org/docs/errors.html#scripterror
+1539174549767	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://apiadmin.bitkinetic.com/auto?wx=ZhangLiYe
+1539174549770	Marionette	DEBUG	[6442450945] Received DOM event unload for https://apiadmin.bitkinetic.com/auto?wx=ZhangLiYe
+1539174551486	Marione[Parent 16752, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16752, Gecko_IOThread] WARNING: pipe error: 109: fi[Parent 16304, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16304, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5552, Chrome_Chil1539174806054	Marionette	INFO	Stopped listening on port 53705
+[GPU 10336, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+in.cc, line 346
+[Child 7348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil1539174806008	Marionette	INFO	Stopped listening on port 53541
+[GPU 17516, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+me/common/ipc_channel_win.cc, line 346
+[Child 22284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch1538905144796	Marionette	INFO	Stopped listening on port 51084
+[GPU 1108, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+or: cannot send/recv
+
+: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil1538899523960	Marionette	INFO	Stopped listening on port 63220
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

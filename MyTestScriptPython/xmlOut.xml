@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Buddy_Product_Enviroment" time="12.732999999999997">
+  <testsuite name="首页-登录-注册 / 登录" id="13504eb9-3314-459b-bfb9-45f820efd965" tests="2" time="0.356">
+    <testcase name="Status code is 200" time="0.356"/>
+    <testcase name="Your test nickName" time="0.356">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="5.&#x9;位置与安全相关接口 / 5.1&#x9;指令请求设备定位" id="e1b74750-3e2b-44a4-887f-4f4f6ed89197" tests="2" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="Your test message 成功" time="0.101"/>
+  </testsuite>
+  <testsuite name="5.&#x9;位置与安全相关接口 / 5.1&#x9;指令请求设备定位 -一分钟内再次请求" id="4c6198c3-7499-42db-ae07-88618716e16d" tests="2" time="0.107">
+    <testcase name="Status code is 200" time="0.107"/>
+    <testcase name="Your test message 成功" time="0.107"/>
+  </testsuite>
+  <testsuite name="5.&#x9;位置与安全相关接口 / 5.2  获取设备当前位置" id="e4bedfe1-f78f-445a-9d16-4f0211480b71" tests="2" time="0.079">
+    <testcase name="Status code is 200" time="0.079">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Your test message 成功" time="0.079">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="7 计步和运动接口 / 7.1 设定每日目标计步值" id="e93f079d-eb0f-41fd-af18-6af5671a8b60" tests="2" time="0.139">
+    <testcase name="Status code is 200" time="0.139"/>
+    <testcase name="Your test message 成功" time="0.139"/>
+  </testsuite>
+  <testsuite name="7 计步和运动接口 / 7.2 获取计步目标值" id="53dffa4b-045e-426c-bdca-248afedae7b0" tests="2" time="0.086">
+    <testcase name="Status code is 200" time="0.086"/>
+    <testcase name="Your test message 成功" time="0.086"/>
+  </testsuite>
+  <testsuite name="7 计步和运动接口 / 7.3 计步数据统计" id="53b2faea-5786-4f7d-80fe-4d7b94bdec67" tests="2" time="0.138">
+    <testcase name="Status code is 200" time="0.138"/>
+    <testcase name="Your test message 成功" time="0.138"/>
+  </testsuite>
+  <testsuite name="8 习惯接口 / 8.4 获取习惯内容铃声" id="dbc084d0-4906-4769-9472-9388622b5a3b" tests="3" time="0.086">
+    <testcase name="Status code is 200" time="0.086"/>
+    <testcase name="Your test message 成功" time="0.086"/>
+  </testsuite>
+  <testsuite name="8 习惯接口 / 8.9 获取统计数据" id="735c054e-3193-4df5-9797-d290f1b9316d" tests="2" time="0.308">
+    <testcase name="Status code is 200" time="0.308"/>
+    <testcase name="Your test message 成功" time="0.308"/>
+  </testsuite>
+  <testsuite name="8 习惯接口 / 8.10 获取指定类型习惯栏目列表-habitType=1" id="930db0b1-d853-4932-bf95-7a155b7afe6b" tests="3" time="0.193">
+    <testcase name="Status code is 200" time="0.193"/>
+    <testcase name="Your test message 成功" time="0.193"/>
+  </testsuite>
+  <testsuite name="8 习惯接口 / 8.10 获取指定类型习惯栏目列表-habitType=2" id="fc93dabb-67d3-4bf4-a690-6ba281d57914" tests="3" time="0.156">
+    <testcase name="Status code is 200" time="0.156"/>
+    <testcase name="Your test message 成功" time="0.156"/>
+  </testsuite>
+  <testsuite name="8 习惯接口 / 8.10 获取指定类型习惯栏目列表-habitType=3" id="2146a8e0-5461-4b32-b8f0-b3fb3576e182" tests="3" time="0.142">
+    <testcase name="Status code is 200" time="0.142"/>
+    <testcase name="Your test message 成功" time="0.142"/>
+  </testsuite>
+  <testsuite name="8 习惯接口 / 8.11 获取指定习惯详情" id="9bc5f5c5-f9d4-4d22-86f2-bd83fa244055" tests="2" time="0.094">
+    <testcase name="Status code is 200" time="0.094"/>
+    <testcase name="Your test message 成功" time="0.094"/>
+  </testsuite>
+  <testsuite name="8 习惯接口 / 8.12&#x9;设置习惯(添加/修改)" id="d173c140-7697-4c20-9380-dbd513f25d39" tests="3" time="0.133">
+    <testcase name="Status code is 200" time="0.133"/>
+    <testcase name="Your test message 成功" time="0.133"/>
+  </testsuite>
+  <testsuite name="8 习惯接口 / 8.13&#x9;开关订阅习惯-关闭" id="b723234e-30dd-4d84-a89e-b903182f0706" tests="3" time="0.091">
+    <testcase name="Status code is 200" time="0.091"/>
+    <testcase name="Your test message 成功" time="0.091"/>
+  </testsuite>
+  <testsuite name="8 习惯接口 / 8.13&#x9;开关订阅习惯-开启" id="b1f2d86a-c55c-4557-b195-ebd5336dc6f9" tests="3" time="0.116">
+    <testcase name="Status code is 200" time="0.116"/>
+    <testcase name="Your test message 成功" time="0.116"/>
+  </testsuite>
+  <testsuite name="8 习惯接口 / 8.14 获取历史任务" id="88d9edcf-d438-41e5-8827-3deacacf42f1" tests="3" time="0.149">
+    <testcase name="Status code is 200" time="0.149"/>
+    <testcase name="Your test message 成功" time="0.149"/>
+  </testsuite>
+  <testsuite name="9 推送说明 / 9.3 获取用户消息列表-设备相关" id="e80f6b5b-0add-44ec-8304-111fc4f8a066" tests="3" time="0.079">
+    <testcase name="Status code is 200" time="0.079"/>
+    <testcase name="Your test message 成功" time="0.079"/>
+  </testsuite>
+  <testsuite name="9 推送说明 / 9.3 获取用户消息列表-所有相关" id="4edcf748-d9b9-4e7b-a4ee-c21b3ba82087" tests="3" time="0.076">
+    <testcase name="Status code is 200" time="0.076"/>
+    <testcase name="Your test message 成功" time="0.076"/>
+  </testsuite>
+  <testsuite name="9 推送说明 / 9.3 获取用户消息列表-系统通知" id="3b084fc3-29f3-4a75-a362-8ef7f9657235" tests="3" time="0.138">
+    <testcase name="Status code is 200" time="0.138"/>
+    <testcase name="Your test message 成功" time="0.138"/>
+  </testsuite>
+  <testsuite name="9 推送说明 / 9.3 获取用户消息列表-话费通知" id="95c1c522-2527-4dcf-8847-6f9957a06449" tests="3" time="0.089">
+    <testcase name="Status code is 200" time="0.089"/>
+    <testcase name="Your test message 成功" time="0.089"/>
+  </testsuite>
+  <testsuite name="10 账户管理 / 10.1 发送验证码" id="f12a27c0-a6ee-49e1-a2d5-541e784c5dd6" tests="1" time="0">
+    <error>
+      <![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 47.92.24.166:8082
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+---
+testScriptError: undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="10 账户管理 / 10.2 检查账号是否已存在" id="dd624f4a-5a5f-42b8-a000-0cd1c1843b50" tests="1" time="0">
+    <error>
+      <![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 47.92.24.166:8082
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+---
+testScriptError: undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="10 账户管理 / 10.3 错误的验证码" id="9333493e-fb94-4d4c-a7e2-01dbbdc3a15d" tests="3" time="0.063">
+    <testcase name="Status code is 200" time="0.063">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 2 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Your test message 成功" time="0.063">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="10 账户管理 / 10.7&#x9;修改用户资料" id="125e43e4-11d4-467b-97a6-057c6c19a898" tests="2" time="0.186">
+    <testcase name="Status code is 200" time="0.186"/>
+    <testcase name="Your test message 成功" time="0.186"/>
+  </testsuite>
+  <testsuite name="10 账户管理 / 10.8 获取用户资料" id="ad61c554-2299-49c6-bfd9-ec743de19504" tests="3" time="0.087">
+    <testcase name="Status code is 200" time="0.087"/>
+    <testcase name="Status code name has string" time="0.087"/>
+    <testcase name="Your test message 成功" time="0.087"/>
+  </testsuite>
+  <testsuite name="10 账户管理 / 10.11 用户设置邀请码" id="70a3241e-8556-4618-8f80-fa88b6fa3861" tests="3" time="0.073">
+    <testcase name="Status code is 200" time="0.073">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.073">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Your test message 成功" time="0.073">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="11 计费 / 11.1 获取话费和流量使用情况" id="dd5859e7-a88a-4a29-8802-8b83512879b2" tests="3" time="0.457">
+    <testcase name="Status code is 200" time="0.457"/>
+    <testcase name="Status code name has string" time="0.457"/>
+    <testcase name="Your test message 成功" time="0.457"/>
+  </testsuite>
+  <testsuite name="11 计费 / 11.2 获取充值金额" id="bed76586-f106-4a4f-b6a7-6912dc1e2580" tests="4" time="0.072">
+    <testcase name="Response time is less than 200ms" time="0.072"/>
+    <testcase name="Status code is 200" time="0.072"/>
+    <testcase name="Status code name has string" time="0.072"/>
+    <testcase name="Your test message 成功" time="0.072"/>
+  </testsuite>
+  <testsuite name="11 计费 / 11.3 充值&quot;payType&quot;: 0" id="25403de6-b19b-4c94-9115-4205f781b283" tests="4" time="0.096">
+    <testcase name="Status code is 200" time="0.096"/>
+    <testcase name="Status code name has string" time="0.096"/>
+    <testcase name="Your test message 成功" time="0.096"/>
+  </testsuite>
+  <testsuite name="11 计费 / 11.3 充值 &quot;payType&quot;: 1" id="224cd535-c3ab-4c9f-96bc-ea3b5651458c" tests="4" time="0.449">
+    <testcase name="Status code is 200" time="0.449"/>
+    <testcase name="Status code name has string" time="0.449"/>
+    <testcase name="Your test message 成功" time="0.449"/>
+  </testsuite>
+  <testsuite name="11 计费 / 11.4 充值记录" id="5bf4fe6b-fcb4-40bd-9c0d-e40edde2fd01" tests="4" time="0.081">
+    <testcase name="Status code is 200" time="0.081"/>
+    <testcase name="Status code name has string" time="0.081"/>
+    <testcase name="Your test message 成功" time="0.081"/>
+  </testsuite>
+  <testsuite name="11 计费 / 11.6 获取实名认证状态" id="88ae35a2-7d4a-493f-8504-b3c48808cd4a" tests="3" time="0.074">
+    <testcase name="Status code is 200" time="0.074"/>
+    <testcase name="Status code name has string" time="0.074"/>
+    <testcase name="Your test message 成功" time="0.074"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.3 添加订阅" id="df78e0e9-3bc2-435f-b4b5-b65b333e322b" tests="4" time="0.068">
+    <testcase name="Status code is 200" time="0.068">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 2 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.068">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Your test message 成功" time="0.068">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.5  获取订阅故事列表" id="23185e56-2c54-429a-9736-c56e09a87f63" tests="4" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="Status code name has string" time="0.101"/>
+    <testcase name="Your test message 成功" time="0.101"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.6 开关订阅故事 -取消订阅 " id="d40262e7-1e71-49fb-b007-d53dd6640d1e" tests="4" time="0.078">
+    <testcase name="Status code is 200" time="0.078"/>
+    <testcase name="Status code name has string" time="0.078"/>
+    <testcase name="Your test message 成功" time="0.078"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.8&#x9;获取指定类型睡前故事-storyType=1" id="0fc53983-29be-48ea-a76b-2f3594b8468a" tests="4" time="0.083">
+    <testcase name="Status code is 200" time="0.083"/>
+    <testcase name="Status code name has string" time="0.083"/>
+    <testcase name="Your test message 成功" time="0.083"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.8&#x9;获取指定类型睡前故事-storyType=2" id="a73ca88a-5939-482e-8b39-7b513b40cc85" tests="4" time="0.092">
+    <testcase name="Status code is 200" time="0.092"/>
+    <testcase name="Status code name has string" time="0.092"/>
+    <testcase name="Your test message 成功" time="0.092"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.8&#x9;获取指定类型睡前故事-storyType=3" id="e7892eae-2adc-4194-a082-51cb9365397e" tests="4" time="0.1">
+    <testcase name="Status code is 200" time="0.1"/>
+    <testcase name="Status code name has string" time="0.1"/>
+    <testcase name="Your test message 成功" time="0.1"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.8&#x9;获取指定类型睡前故事-storyType=4" id="019206eb-9549-4a27-ae92-5c4346029ffc" tests="4" time="0.091">
+    <testcase name="Status code is 200" time="0.091"/>
+    <testcase name="Status code name has string" time="0.091"/>
+    <testcase name="Your test message 成功" time="0.091"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.8&#x9;获取指定类型睡前故事-storyType=99" id="705c910d-ebe1-4acd-a315-743c2f98c9f7" tests="4" time="0.082">
+    <testcase name="Status code is 200" time="0.082"/>
+    <testcase name="Status code name has string" time="0.082"/>
+    <testcase name="Your test message 成功" time="0.082"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.8&#x9;获取指定类型睡前故事-storyType=100" id="3d8178dc-d78b-4454-8aa0-030d4e4bf8ac" tests="4" time="0.079">
+    <testcase name="Status code is 200" time="0.079"/>
+    <testcase name="Status code name has string" time="0.079"/>
+    <testcase name="Your test message 成功" time="0.079"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.10&#x9;上传故事播放记录" id="10078fdf-d866-4510-a9ea-56bc201bc17d" tests="4" time="0.078">
+    <testcase name="Status code is 200" time="0.078"/>
+    <testcase name="Status code name has string" time="0.078"/>
+    <testcase name="Your test message 成功" time="0.078"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.10&#x9;上传故事播放记录 copy" id="22aca69b-97cd-4ddf-98ce-45e8ca42f12f" tests="1" time="0.079">
+    <testcase name="Status code is 200" time="0.079"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.12  订阅故事日期集合" id="4758496e-2308-4b55-aa43-243eaf4b3e1e" tests="4" time="0.076">
+    <testcase name="Status code is 200" time="0.076"/>
+    <testcase name="Status code name has string" time="0.076"/>
+    <testcase name="Your test message 成功" time="0.076"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.13 指定的故事订阅情况" id="2c5bc374-cfa0-49de-8d22-dbdcaa3502e0" tests="4" time="0.093">
+    <testcase name="Status code is 200" time="0.093"/>
+    <testcase name="Status code name has string" time="0.093"/>
+    <testcase name="Your test message 成功" time="0.093"/>
+  </testsuite>
+  <testsuite name="12  睡前故事 / 12.11  获取故事首页" id="6bfb9a8b-31bd-4825-846d-93f223d7b037" tests="4" time="0.136">
+    <testcase name="Status code is 200" time="0.136"/>
+    <testcase name="Status code name has string" time="0.136"/>
+    <testcase name="Your test message 成功" time="0.136"/>
+  </testsuite>
+  <testsuite name="13 APP相关 / 13.1 APP 升级接口-type=1  ios" id="e5022c05-4edc-49ad-b6a6-ddc72089dd27" tests="3" time="0.064">
+    <testcase name="Status code is 200" time="0.064"/>
+    <testcase name="Status code name has string" time="0.064"/>
+    <testcase name="Your test message 成功" time="0.064"/>
+  </testsuite>
+  <testsuite name="13 APP相关 / 13.1 APP 升级接口-type=2  android" id="fd7f43b9-9a63-41e1-be4e-cbd0592ee605" tests="3" time="0.121">
+    <testcase name="Status code is 200" time="0.121"/>
+    <testcase name="Status code name has string" time="0.121"/>
+    <testcase name="Your test message 成功" time="0.121"/>
+  </testsuite>
+  <testsuite name="13 APP相关 / 13.2意见反馈-type=1" id="4231080e-f7b2-402e-96f7-4eafe41c05a8" tests="3" time="0.071">
+    <testcase name="Status code is 200" time="0.071"/>
+    <testcase name="Status code name has string" time="0.071"/>
+    <testcase name="Your test message 成功" time="0.071"/>
+  </testsuite>
+  <testsuite name="13 APP相关 / 13.2意见反馈-type=2" id="12f9dd7f-a8a0-4048-955a-3b829353701e" tests="1" time="0.072">
+    <testcase name="Status code is 200" time="0.072"/>
+  </testsuite>
+  <testsuite name="13 APP相关 / 13.2意见反馈-type=3" id="09a144d1-ae78-4177-98e9-2f3c76123662" tests="3" time="0.069">
+    <testcase name="Status code is 200" time="0.069"/>
+    <testcase name="Status code name has string" time="0.069"/>
+    <testcase name="Your test message 成功" time="0.069"/>
+  </testsuite>
+  <testsuite name="13 APP相关 / 13.2意见反馈-type=4" id="b63c4d01-6f30-44bf-be89-e5a990f51e00" tests="3" time="0.068">
+    <testcase name="Status code is 200" time="0.068"/>
+    <testcase name="Status code name has string" time="0.068"/>
+    <testcase name="Your test message 成功" time="0.068"/>
+  </testsuite>
+  <testsuite name="15 资讯 / 15.1 获取资讯列表" id="f4435c4a-8b74-4830-8585-eeb4e0d18084" tests="3" time="0.077">
+    <testcase name="Status code name has string" time="0.077"/>
+    <testcase name="Status code is 200" time="0.077"/>
+    <testcase name="Your test message 成功" time="0.077"/>
+  </testsuite>
+  <testsuite name="15 资讯 / 15.2 获取资讯内文" id="db8919ad-0812-4ef9-b7c9-812a37ae2bdd" tests="3" time="0.124">
+    <testcase name="Status code name has string" time="0.124"/>
+    <testcase name="Status code is 200" time="0.124"/>
+    <testcase name="Your test message 成功" time="0.124"/>
+  </testsuite>
+  <testsuite name="15 资讯 / 15.3   评论资讯" id="58cc92c9-cc53-4aea-8f4b-1c4b7104bbe2" tests="3" time="0.081">
+    <testcase name="Status code name has string" time="0.081"/>
+    <testcase name="Status code is 200" time="0.081"/>
+    <testcase name="Your test message 成功" time="0.081"/>
+  </testsuite>
+  <testsuite name="15 资讯 / 15.5 评论楼主-type=0" id="6cb3fbcd-3145-4382-87b4-89b8db6c78db" tests="3" time="0.053">
+    <testcase name="Status code name has string" time="0.053">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.053">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Your test message 成功" time="0.053">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="15 资讯 / 15.5 评论楼主-type=1" id="2f324e22-f972-4abf-b30a-26799f5fddf6" tests="3" time="0.086">
+    <testcase name="Status code name has string" time="0.086"/>
+    <testcase name="Status code is 200" time="0.086"/>
+    <testcase name="Your test message 成功" time="0.086"/>
+  </testsuite>
+  <testsuite name="15 资讯 / 15.7  点赞" id="e49b2ba3-e925-49c3-90c5-49525823243c" tests="3" time="0.079">
+    <testcase name="Status code name has string" time="0.079"/>
+    <testcase name="Status code is 200" time="0.079"/>
+    <testcase name="Your test message 成功" time="0.079"/>
+  </testsuite>
+  <testsuite name="15 资讯 / 15.1 获取资讯列表 copy" id="fcb1ca7f-3302-4da9-a060-c30aa2bf65bc" tests="3" time="0.083">
+    <testcase name="Status code name has string" time="0.083"/>
+    <testcase name="Status code is 200" time="0.083"/>
+    <testcase name="Your test message 成功" time="0.083"/>
+  </testsuite>
+  <testsuite name="16 专家说 / 16.1 获取专家列表" id="f92140a4-12f7-4942-8e3c-98b0a5ec216f" tests="4" time="0.071">
+    <testcase name="Status code is 200" time="0.071"/>
+    <testcase name="Status code name has string" time="0.071"/>
+    <testcase name="Your test message 成功" time="0.071"/>
+  </testsuite>
+  <testsuite name="16 专家说 / 16.2获取指定专家详情" id="3b468b62-8791-49b9-a95d-dab577f25dff" tests="4" time="0.076">
+    <testcase name="Status code is 200" time="0.076"/>
+    <testcase name="Status code name has string" time="0.076"/>
+    <testcase name="Your test message 成功" time="0.076"/>
+  </testsuite>
+  <testsuite name="16 专家说 / 获取指定专家详情界面" id="2143c4e8-e482-4bee-8654-b3ae392c9b45" tests="4" time="0.076">
+    <testcase name="Status code is 200" time="0.076"/>
+    <testcase name="Status code name has string" time="0.076"/>
+    <testcase name="Your test message 成功" time="0.076"/>
+  </testsuite>
+  <testsuite name="16 专家说 / 16.3h获得指定专家栏目列表" id="126f1d1f-fad2-42ff-b6e4-ac30e93b67e0" tests="4" time="0.085">
+    <testcase name="Status code is 200" time="0.085"/>
+    <testcase name="Status code name has string" time="0.085"/>
+    <testcase name="Your test message 成功" time="0.085"/>
+  </testsuite>
+  <testsuite name="16 专家说 / 16.4 获得指定专辑栏目内容" id="5740a718-6253-4fe5-ba82-e2ac32dc9d1f" tests="4" time="0.077">
+    <testcase name="Status code is 200" time="0.077">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 2 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.077">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Your test message 成功" time="0.077">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="16 专家说 / 16.5统计播放次数" id="70beb21c-5703-4287-ae02-7eb84789479f" tests="4" time="0.16">
+    <testcase name="Status code is 200" time="0.16"/>
+    <testcase name="Status code name has string" time="0.16"/>
+    <testcase name="Your test message 成功" time="0.16"/>
+  </testsuite>
+  <testsuite name="16 专家说 / 16.6 评论专家内文" id="e1019a9b-f355-428e-b0a6-1e444bf92d56" tests="4" time="0.329">
+    <testcase name="Status code is 200" time="0.329"/>
+    <testcase name="Status code name has string" time="0.329"/>
+    <testcase name="Your test message 成功" time="0.329"/>
+  </testsuite>
+  <testsuite name="16 专家说 / 16.7  回复楼主/回复评论-type=0为评论楼主" id="432f7d98-1ae3-495f-a741-2aefa128d3df" tests="4" time="0.059">
+    <testcase name="Status code is 200" time="0.059">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 2 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.059">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Your test message 成功" time="0.059">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="16 专家说 / 16.7  回复楼主/回复评论-type=1为回复评论" id="a13966dd-f350-4a6e-9528-9b7b31225fd6" tests="4" time="0.188">
+    <testcase name="Status code is 200" time="0.188"/>
+    <testcase name="Status code name has string" time="0.188"/>
+    <testcase name="Your test message 成功" time="0.188"/>
+  </testsuite>
+  <testsuite name="16 专家说 / 16.8获取指定专辑章节内容详情（新增）" id="4e984175-a4eb-4086-9f52-f3e413234e6d" tests="3" time="0.094">
+    <testcase name="Status code name has string" time="0.094"/>
+    <testcase name="Status code is 200" time="0.094"/>
+    <testcase name="Your test message 成功" time="0.094"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 17.1 获取园所列表" id="55080918-715c-4a2c-95a1-0f5cebbbe296" tests="3" time="0.077">
+    <testcase name="Status code name has string" time="0.077"/>
+    <testcase name="Status code is 200" time="0.077"/>
+    <testcase name="Your test message 成功" time="0.077"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 17.1 获取园所列表 -只传rows" id="9949d0d9-ae0e-4476-b04b-bd51166e1184" tests="3" time="0.068">
+    <testcase name="Status code name has string" time="0.068"/>
+    <testcase name="Status code is 200" time="0.068"/>
+    <testcase name="Your test message 成功" time="0.068"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 17.2&#x9;获取指定园所首页（含分享内容）" id="10ed544d-d6ec-4ea0-bc92-761f27256267" tests="3" time="0.076">
+    <testcase name="Status code name has string" time="0.076"/>
+    <testcase name="Status code is 200" time="0.076"/>
+    <testcase name="Your test message 成功" time="0.076"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 17.3&#x9;获取指定园所指定类型文章分页（含分享内容）-type=0" id="d60d2f1f-178a-4627-bf47-1e51fd153879" tests="3" time="0.071">
+    <testcase name="Status code name has string" time="0.071"/>
+    <testcase name="Status code is 200" time="0.071"/>
+    <testcase name="Your test message 成功" time="0.071"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 17.3&#x9;获取指定园所指定类型文章分页（含分享内容）-type=1" id="e61aa34f-e9c7-4f33-8c46-77c326e0ed95" tests="3" time="0.072">
+    <testcase name="Status code name has string" time="0.072"/>
+    <testcase name="Status code is 200" time="0.072"/>
+    <testcase name="Your test message 成功" time="0.072"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 17.3&#x9;获取指定园所指定类型文章分页（含分享内容）-type=2" id="2c57bfcc-50c2-4067-9800-f3a971a9ab14" tests="3" time="0.077">
+    <testcase name="Status code name has string" time="0.077"/>
+    <testcase name="Status code is 200" time="0.077"/>
+    <testcase name="Your test message 成功" time="0.077"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 18.4 幼儿园 关注" id="03667a42-e73e-4147-be40-25d827a8d345" tests="3" time="0.077">
+    <testcase name="Status code name has string" time="0.077"/>
+    <testcase name="Status code is 200" time="0.077"/>
+    <testcase name="Your test message 成功" time="0.077"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 18.4 幼儿园 取消关注" id="6ebf7c23-baba-4a8d-bbd0-69cb766d1352" tests="3" time="0.073">
+    <testcase name="Status code name has string" time="0.073"/>
+    <testcase name="Status code is 200" time="0.073"/>
+    <testcase name="Your test message 成功" time="0.073"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 17.5&#x9;获取指定文章详情（新增）" id="b39d635a-0a53-401b-8a71-f43063593c8e" tests="3" time="0.057">
+    <testcase name="Status code name has string" time="0.057"/>
+    <testcase name="Status code is 200" time="0.057"/>
+    <testcase name="Your test message 成功" time="0.057">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="17 园所风采 / 17.6 评论幼儿园内容（新增）" id="1f3bb6f0-39db-46df-bd65-025bb929422f" tests="3" time="0.298">
+    <testcase name="Status code name has string" time="0.298"/>
+    <testcase name="Status code is 200" time="0.298"/>
+    <testcase name="Your test message 成功" time="0.298"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 17.7 回复楼主-type=0" id="40c64c82-373d-416a-a9a4-1e23707103c4" tests="3" time="0.306">
+    <testcase name="Status code name has string" time="0.306"/>
+    <testcase name="Status code is 200" time="0.306"/>
+    <testcase name="Your test message 成功" time="0.306"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 17.7 回复楼主-type=1" id="27dc758d-85bc-4228-a7ad-25a36da040ec" tests="3" time="0.322">
+    <testcase name="Status code name has string" time="0.322"/>
+    <testcase name="Status code is 200" time="0.322"/>
+    <testcase name="Your test message 成功" time="0.322"/>
+  </testsuite>
+  <testsuite name="17 园所风采 / 园所内容web" id="2f839eaa-6561-4110-b2a6-3b0b892b07a5" tests="1" time="0">
+    <error>
+      <![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 47.93.124.73:8082
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+---
+testScriptError: undefined
+---
+]]>
+    </error>
+    <testcase name="Status code name has string" time="0">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 登录 并入群" id="fdce4b07-db87-4884-9290-5b2c2db6b2ac" tests="0" time="0.203">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: undefined
+---
+]]>
+    </error>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.1&#x9;入群操作  -正常-已是群成员" id="8b9750c5-be07-449d-afb9-94e619865ccf" tests="5" time="0.076">
+    <testcase name="Status code is 200" time="0.076"/>
+    <testcase name="Status code name has string" time="0.076"/>
+    <testcase name="Your test message 成功" time="0.076"/>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.1&#x9;入群操作  -正常-入群" id="6dd14b16-ae31-4850-9952-eda4a1a9220c" tests="5" time="0.052">
+    <testcase name="Status code is 200" time="0.052">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 2 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.052">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 2 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Your test message 成功" time="0.052">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.1&#x9;入群操作  -notes不传值" id="b2ecfc69-a6ed-47ed-b2c8-1a341c697368" tests="3" time="0.069">
+    <testcase name="Status code is 200" time="0.069"/>
+    <testcase name="Status code name has string" time="0.069"/>
+    <testcase name="Your test message 成功" time="0.069">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.1&#x9;入群操作  -gid格式错误" id="9b28904d-8a79-42ff-a065-05f121850826" tests="2" time="0.066">
+    <testcase name="Status code is 200" time="0.066">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.066">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.1  入群操作  -正常 -type=3" id="92f3a2a6-07f0-41cf-a36e-459151f26186" tests="2" time="0.119">
+    <testcase name="Status code is 200" time="0.119"/>
+    <testcase name="Status code name has string" time="0.119"/>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.2&#x9;出群操作-type=0" id="7fb6e887-3ea0-4f69-ab19-f909a43a5622" tests="3" time="0.075">
+    <testcase name="Status code is 200" time="0.075"/>
+    <testcase name="Status code name has string" time="0.075"/>
+    <testcase name="Your test message 成功" time="0.075">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.2&#x9;出群操作 -gid不传" id="1f2f76c3-0141-4924-b983-9a871efdb1f8" tests="2" time="0.063">
+    <testcase name="Status code is 200" time="0.063"/>
+    <testcase name="Status code name has string" time="0.063"/>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.2&#x9;出群操作-gid错误" id="e9d7974d-92c5-4af0-8089-977817cae434" tests="3" time="0.067">
+    <testcase name="Status code is 200" time="0.067"/>
+    <testcase name="Status code name has string" time="0.067"/>
+    <testcase name="Your test message 成功" time="0.067">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.2&#x9;出群操作 -type=1" id="a63b6505-ea3e-4c39-bcbb-c8505aff6f23" tests="5" time="0.065">
+    <testcase name="Status code is 200" time="0.065"/>
+    <testcase name="Status code name has string" time="0.065"/>
+    <testcase name="Your test message 成功" time="0.065">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.2&#x9;出群操作-type=2" id="260f695c-9270-4a9b-b2a3-bc74e1aa5ab6" tests="3" time="0.728">
+    <testcase name="Status code is 200" time="0.728"/>
+    <testcase name="Status code name has string" time="0.728"/>
+    <testcase name="Your test message 成功" time="0.728"/>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.3  审批操作 auditStatus=1" id="9a21b26e-b6b6-461d-a5a9-23fbf444e2e8" tests="3" time="0.069">
+    <testcase name="Status code is 200" time="0.069"/>
+    <testcase name="Status code name has string" time="0.069"/>
+    <testcase name="Your test message 成功" time="0.069">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.3&#x9;审批操作 auditStatus=2" id="de15cfbd-23ae-45f0-964a-0e3ae386985d" tests="3" time="0.064">
+    <testcase name="Status code is 200" time="0.064"/>
+    <testcase name="Status code name has string" time="0.064"/>
+    <testcase name="Your test message 成功" time="0.064">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.4&#x9;查找群组资料-正常" id="a78c90d6-0959-424b-b061-3ff213453e26" tests="3" time="0.09">
+    <testcase name="Status code is 200" time="0.09"/>
+    <testcase name="Status code name has string" time="0.09"/>
+    <testcase name="Your test message 成功" time="0.09"/>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.4&#x9;查找群组资料-gid错误" id="1f9b5a7d-db12-412a-8c1a-bfe0a03a0be5" tests="3" time="0.07">
+    <testcase name="Status code is 200" time="0.07"/>
+    <testcase name="Status code name has string" time="0.07"/>
+    <testcase name="Your test message 成功" time="0.07"/>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.4&#x9;查找群组资料-gid错误" id="33d27c0e-f09e-4298-934a-487af78503e5" tests="3" time="0.064">
+    <testcase name="Status code is 200" time="0.064"/>
+    <testcase name="Status code name has string" time="0.064"/>
+    <testcase name="Your test message 成功" time="0.064"/>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.5&#x9;群主修改群资料--修改群名、群介绍" id="3206145c-8595-4b28-84e7-b1e11966c1f7" tests="3" time="0.064">
+    <testcase name="Status code is 200" time="0.064"/>
+    <testcase name="Status code name has string" time="0.064"/>
+    <testcase name="Your test message 成功" time="0.064">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.5&#x9;群主修改群资料--非群主尝试修改群名、群介绍" id="6bdffccf-61ff-4900-8ba9-0da1841b7d15" tests="3" time="0.059">
+    <testcase name="Status code is 200" time="0.059"/>
+    <testcase name="Status code name has string" time="0.059"/>
+    <testcase name="Your test message 成功" time="0.059">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.5&#x9;群主修改群资料--群名称超过20字符" id="6f5b2100-a6a0-46ed-b170-0b8952155d5e" tests="3" time="0.072">
+    <testcase name="Status code is 200" time="0.072"/>
+    <testcase name="Status code name has string" time="0.072"/>
+    <testcase name="Your test message 成功" time="0.072">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.6&#x9;群成员设置群状态：&quot;nodisturb&quot;:0,&quot;top&quot;:0" id="76183222-eaf0-494f-8197-ee5fc0ce65ff" tests="4" time="0.068">
+    <testcase name="Status code is 200" time="0.068"/>
+    <testcase name="Status code name has string" time="0.068"/>
+    <testcase name="Your test message 成功" time="0.068">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.6  群成员设置群状态：&quot;nodisturb&quot;:1，&quot;top&quot;:0" id="8120ead5-a9d8-44dc-8d3f-d6d6268c9bfc" tests="4" time="0.067">
+    <testcase name="Status code is 200" time="0.067"/>
+    <testcase name="Status code name has string" time="0.067"/>
+    <testcase name="Your test message 成功" time="0.067">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.6&#x9;群成员设置群状态：&quot;nodisturb&quot;:0,&quot;top&quot;:1" id="7f5aee35-1b1a-4066-8860-682830e93b02" tests="4" time="0.068">
+    <testcase name="Status code is 200" time="0.068"/>
+    <testcase name="Status code name has string" time="0.068"/>
+    <testcase name="Your test message 成功" time="0.068">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.6&#x9;群成员设置群状态：&quot;nodisturb&quot;:1,&quot;top&quot;:0" id="68c0680f-110a-48aa-9722-a19994acaf08" tests="4" time="0.066">
+    <testcase name="Status code is 200" time="0.066"/>
+    <testcase name="Status code name has string" time="0.066"/>
+    <testcase name="Your test message 成功" time="0.066">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.7&#x9;群通知消息列表" id="d0f92cd1-61c8-43fc-bb10-fa7dffc65b71" tests="5" time="0.074">
+    <testcase name="Status code is 200" time="0.074"/>
+    <testcase name="Status code name has string" time="0.074"/>
+    <testcase name="Your test message 成功" time="0.074"/>
+    <testcase name="response matches the data posted" time="0.074">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.8&#x9;删除通知消息-删除第一条" id="04f7e372-9e3c-4653-88dc-fe551508e075" tests="4" time="0.066">
+    <testcase name="Status code is 200" time="0.066"/>
+    <testcase name="Status code name has string" time="0.066"/>
+    <testcase name="Your test message 成功" time="0.066"/>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.8  删除通知消息-删除所有" id="0fd5aef2-1d6e-4856-bf64-50453b46ce7f" tests="4" time="0.353">
+    <testcase name="Status code is 200" time="0.353"/>
+    <testcase name="Status code name has string" time="0.353"/>
+    <testcase name="Your test message 成功" time="0.353"/>
+  </testsuite>
+  <testsuite name="18 群功能 / 18.9&#x9;获取推荐群列表" id="5276b48f-3f71-49cc-81cc-2875b0021abc" tests="3" time="0.071">
+    <testcase name="Status code is 200" time="0.071"/>
+    <testcase name="Status code name has string" time="0.071"/>
+    <testcase name="Your test message 成功" time="0.071"/>
+  </testsuite>
+  <testsuite name="19 活动 / 19.1 活动" id="3a11adaa-267c-4df4-837a-6789f61b931e" tests="4" time="0.066">
+    <testcase name="Status code is 200" time="0.066"/>
+    <testcase name="Status code name has string" time="0.066"/>
+    <testcase name="status code is 200" time="0.066"/>
+    <testcase name="Your test message 成功" time="0.066"/>
+  </testsuite>
+  <testsuite name="19 活动 / 19.2&#x9;获取首页活动列表" id="108d5a11-651e-49ed-b383-ee31bfd6bd2b" tests="3" time="0.067">
+    <testcase name="Status code is 200" time="0.067"/>
+    <testcase name="Status code name has string" time="0.067"/>
+    <testcase name="Your test message 成功" time="0.067"/>
+  </testsuite>
+  <testsuite name="19 活动 / 19.3  获取活动列表" id="ce1c3c99-bf22-4bbe-8621-0bc36bcf2e15" tests="3" time="0.065">
+    <testcase name="Status code is 200" time="0.065"/>
+    <testcase name="Status code name has string" time="0.065"/>
+    <testcase name="Your test message 成功" time="0.065"/>
+  </testsuite>
+</testsuites>

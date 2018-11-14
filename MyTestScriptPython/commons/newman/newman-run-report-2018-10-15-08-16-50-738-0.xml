@@ -1,0 +1,2992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="YunShuTest" tests="150" time="15.145">
+  <testsuite name="登录接口 / 手机号登录接口--管理员登录" id="55bdecd4-6036-42e9-ba75-04013313f5e4" tests="4" failures="2" errors="1" time="0.457">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'team' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.457"/>
+    <testcase name="Successful POST request" time="0.457"/>
+    <testcase name="msg==ok" time="0.457" classname="登录接口 / 手机号登录接口--管理员登录">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 登录接口 / 手机号登录接口--管理员登录.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '号码或密码错误，请重新输入' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '号码或密码错误，请重新输入' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.457" classname="登录接口 / 手机号登录接口--管理员登录">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 登录接口 / 手机号登录接口--管理员登录.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -1 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -1 to deeply equal 0
+   at Object.eval sandbox-script.js:4:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="登录接口 / 手机号登录接口--成员登录" id="51f1722c-1f83-49da-8b66-29d3e0c086b8" tests="1" failures="0" errors="0" time="0.124">
+    <testcase name="Status code is 200" time="0.124"/>
+  </testsuite>
+  <testsuite name="加入团队账号 / 团队信息-创建的团队" id="a405ad07-ebf1-4b9e-81cc-9576f271f838" tests="5" failures="2" errors="0" time="0.098">
+    <testcase name="Status code is 200" time="0.098"/>
+    <testcase name="Successful POST request" time="0.098"/>
+    <testcase name="msg==ok" time="0.098" classname="加入团队账号 / 团队信息-创建的团队">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 加入团队账号 / 团队信息-创建的团队.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.098" classname="加入团队账号 / 团队信息-创建的团队">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 加入团队账号 / 团队信息-创建的团队.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:3).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="名片相关 / 设置用户个人简介接口" id="cbe85887-4727-4d0d-8dd2-350a42a15259" tests="4" failures="2" errors="0" time="0.097">
+    <testcase name="Status code is 200" time="0.097"/>
+    <testcase name="Successful POST request" time="0.097"/>
+    <testcase name="msg==ok" time="0.097" classname="名片相关 / 设置用户个人简介接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 设置用户个人简介接口.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.097" classname="名片相关 / 设置用户个人简介接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 设置用户个人简介接口.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:4).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="名片相关 / 设置用户从业经历" id="3bfce1d4-7b15-4527-a1b9-957713f817e3" tests="4" failures="2" errors="0" time="0.102">
+    <testcase name="Status code is 200" time="0.102"/>
+    <testcase name="Successful POST request" time="0.102"/>
+    <testcase name="msg==ok" time="0.102" classname="名片相关 / 设置用户从业经历">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 设置用户从业经历.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.102" classname="名片相关 / 设置用户从业经历">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 设置用户从业经历.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:5).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="名片相关 / 修改用户从业经历" id="39bbed2b-2777-41b1-bb2e-eb438840572e" tests="4" failures="2" errors="0" time="0.108">
+    <testcase name="Status code is 200" time="0.108"/>
+    <testcase name="Successful POST request" time="0.108"/>
+    <testcase name="msg==ok" time="0.108" classname="名片相关 / 修改用户从业经历">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 修改用户从业经历.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.108" classname="名片相关 / 修改用户从业经历">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 修改用户从业经历.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:6).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="名片相关 / 删除用户从业经历" id="3c8b8ead-647c-4f96-ab64-264a7bd6a659" tests="0" failures="0" errors="0" time="0.111"/>
+  <testsuite name="名片相关 / 设置用户个人荣誉" id="157d0b6d-83d8-414f-b372-82e2da7b95b1" tests="4" failures="2" errors="0" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="Successful POST request" time="0.101"/>
+    <testcase name="msg==ok" time="0.101" classname="名片相关 / 设置用户个人荣誉">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 设置用户个人荣誉.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.101" classname="名片相关 / 设置用户个人荣誉">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 设置用户个人荣誉.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:8).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="名片相关 / 修改用户个人荣誉" id="2986af09-882a-47a5-941e-5242bf550d2d" tests="4" failures="2" errors="0" time="0.098">
+    <testcase name="Status code is 200" time="0.098"/>
+    <testcase name="Successful POST request" time="0.098"/>
+    <testcase name="msg==ok" time="0.098" classname="名片相关 / 修改用户个人荣誉">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 修改用户个人荣誉.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.098" classname="名片相关 / 修改用户个人荣誉">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 修改用户个人荣誉.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:9).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="名片相关 / 删除用户个人荣誉" id="9f20abf3-5c86-4b31-a759-1b4e6a14112d" tests="4" failures="2" errors="0" time="0.106">
+    <testcase name="Status code is 200" time="0.106"/>
+    <testcase name="Successful POST request" time="0.106"/>
+    <testcase name="msg==ok" time="0.106" classname="名片相关 / 删除用户个人荣誉">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 删除用户个人荣誉.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.106" classname="名片相关 / 删除用户个人荣誉">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 删除用户个人荣誉.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:10).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="名片相关 / 查询用户名片信息接口+头像请求" id="06a36fa8-922f-4864-ac29-580c05d06932" tests="4" failures="1" errors="0" time="0.098">
+    <testcase name="Status code is 200" time="0.098"/>
+    <testcase name="Successful POST request" time="0.098"/>
+    <testcase name="msg==ok" time="0.098" classname="名片相关 / 查询用户名片信息接口+头像请求">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 名片相关 / 查询用户名片信息接口+头像请求.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:11).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="名片相关 / 得到名片分享链接" id="d2ffa1ca-f5e0-49f1-b78c-7b0eef9bba15" tests="0" failures="0" errors="0" time="0.107"/>
+  <testsuite name="团队相关 / 团队信息-加入的团队" id="67bd76a8-29b7-404d-a6c4-f75536ef85a9" tests="0" failures="0" errors="0" time="0.123"/>
+  <testsuite name="团队相关 / 加入团队的邀请链接" id="c594cd2c-1469-43d2-a7ff-b88e284a959b" tests="0" failures="0" errors="0" time="0.119"/>
+  <testsuite name="团队相关 / 加入团队" id="32a93018-500b-49a6-80f7-342ebf178a92" tests="0" failures="0" errors="0" time="0.097"/>
+  <testsuite name="团队相关 / 团队结构-创建的团队" id="8787bccf-cf5c-4c2f-80ca-b0bc612f48f8" tests="4" failures="2" errors="0" time="0.097">
+    <testcase name="Status code is 200" time="0.097"/>
+    <testcase name="Successful POST request" time="0.097"/>
+    <testcase name="msg==ok" time="0.097" classname="团队相关 / 团队结构-创建的团队">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 团队结构-创建的团队.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.097" classname="团队相关 / 团队结构-创建的团队">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 团队结构-创建的团队.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:16).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队相关 / 团队结构-加入的团队" id="4d6fba65-b0e0-4cfd-a35a-01c08cfc1164" tests="4" failures="2" errors="1" time="0.098">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property '1' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.098"/>
+    <testcase name="Successful POST request" time="0.098"/>
+    <testcase name="msg==ok" time="0.098" classname="团队相关 / 团队结构-加入的团队">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 团队结构-加入的团队.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:17).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.098" classname="团队相关 / 团队结构-加入的团队">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 团队结构-加入的团队.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:17).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队相关 / 团队成员信息" id="ad86dd98-65e6-42a9-82df-b4299f4319a8" tests="4" failures="2" errors="0" time="0.097">
+    <testcase name="Status code is 200" time="0.097"/>
+    <testcase name="Successful POST request" time="0.097"/>
+    <testcase name="msg==ok" time="0.097" classname="团队相关 / 团队成员信息">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 团队成员信息.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:18).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.097" classname="团队相关 / 团队成员信息">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 团队成员信息.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:18).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队相关 / 团队或个人搜索？" id="dd19c960-4d24-420a-a724-abf0a0d1baa5" tests="1" failures="0" errors="0" time="0.098">
+    <testcase name="Status code is 200" time="0.098"/>
+  </testsuite>
+  <testsuite name="团队相关 / 查询团队申请列表" id="4dc2240c-611e-465d-ad6e-c1ba1ce82d1e" tests="4" failures="2" errors="0" time="0.104">
+    <testcase name="Status code is 200" time="0.104"/>
+    <testcase name="Successful POST request" time="0.104"/>
+    <testcase name="msg==ok" time="0.104" classname="团队相关 / 查询团队申请列表">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 查询团队申请列表.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:20).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.104" classname="团队相关 / 查询团队申请列表">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 查询团队申请列表.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:20).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队相关 / 处理团队申请接口--待处理" id="f4794f58-6594-4f95-ab59-1f60a6e13987" tests="2" failures="2" errors="0" time="0.105">
+    <testcase name="msg==未查询到申请，请刷新后再试" time="0.105" classname="团队相关 / 处理团队申请接口--待处理">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 处理团队申请接口--待处理.]]>
+        <![CDATA[Test description: msg==未查询到申请，请刷新后再试.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '未查询到申请，请刷新后再试'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '未查询到申请，请刷新后再试'
+   at Object.eval sandbox-script.js:1:21).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.105" classname="团队相关 / 处理团队申请接口--待处理">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 处理团队申请接口--待处理.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:2:21).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队相关 / 发送移除团队成员验证码" id="b7ada229-3e09-46e1-a32e-1bcca2f5febd" tests="5" failures="2" errors="0" time="0.104">
+    <testcase name="Status code is 200" time="0.104"/>
+    <testcase name="Successful POST request" time="0.104"/>
+    <testcase name="msg==OK" time="0.104" classname="团队相关 / 发送移除团队成员验证码">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 发送移除团队成员验证码.]]>
+        <![CDATA[Test description: msg==OK.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'OK'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'OK'
+   at Object.eval sandbox-script.js:4:22).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.104" classname="团队相关 / 发送移除团队成员验证码">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 发送移除团队成员验证码.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:5:22).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队相关 / 团队结构(不包含成员)" id="0e65fafd-3d8d-4227-9e76-c3de2ec0c5bf" tests="4" failures="2" errors="0" time="0.098">
+    <testcase name="Status code is 200" time="0.098"/>
+    <testcase name="Successful POST request" time="0.098"/>
+    <testcase name="msg==ok" time="0.098" classname="团队相关 / 团队结构(不包含成员)">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 团队结构(不包含成员).]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:23).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.098" classname="团队相关 / 团队结构(不包含成员)">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队相关 / 团队结构(不包含成员).]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:23).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 添加团队文化" id="d7aa5706-bdf7-43e8-bfd6-b4ee406433d0" tests="4" failures="2" errors="0" time="0.102">
+    <testcase name="Status code is 200" time="0.102"/>
+    <testcase name="Successful POST request" time="0.102"/>
+    <testcase name="msg==ok" time="0.102" classname="团队文化和招募 / 添加团队文化">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 添加团队文化.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.102" classname="团队文化和招募 / 添加团队文化">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 添加团队文化.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:24).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 团队文化列表" id="3ff41b37-d1fc-4c5a-8f86-e339cad5240e" tests="4" failures="2" errors="1" time="0.114">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iRecordId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.114"/>
+    <testcase name="Successful POST request" time="0.114"/>
+    <testcase name="msg==ok" time="0.114" classname="团队文化和招募 / 团队文化列表">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 团队文化列表.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:25).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.114" classname="团队文化和招募 / 团队文化列表">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 团队文化列表.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:25).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 添加团队招募" id="c9e72407-9274-4e18-bc68-19f20db98b75" tests="4" failures="2" errors="0" time="0.103">
+    <testcase name="Status code is 200" time="0.103"/>
+    <testcase name="Successful POST request" time="0.103"/>
+    <testcase name="msg==ok" time="0.103" classname="团队文化和招募 / 添加团队招募">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 添加团队招募.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.103" classname="团队文化和招募 / 添加团队招募">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 添加团队招募.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:26).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 团队招募列表" id="9b3d84d6-4b51-448b-bf2d-5a3383160881" tests="4" failures="2" errors="1" time="0.104">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iRecordId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.104"/>
+    <testcase name="Successful POST request" time="0.104"/>
+    <testcase name="msg==ok" time="0.104" classname="团队文化和招募 / 团队招募列表">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 团队招募列表.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.104" classname="团队文化和招募 / 团队招募列表">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 团队招募列表.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:27).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 团队文化详情" id="b02e5521-6361-473f-b672-16b88d86233f" tests="4" failures="2" errors="0" time="0.102">
+    <testcase name="Status code is 200" time="0.102"/>
+    <testcase name="Successful POST request" time="0.102"/>
+    <testcase name="msg==ok" time="0.102" classname="团队文化和招募 / 团队文化详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 团队文化详情.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.102" classname="团队文化和招募 / 团队文化详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 团队文化详情.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:28).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 团队招募详情" id="8d7c7d4c-3dc6-4053-899d-245c39629069" tests="4" failures="2" errors="0" time="0.107">
+    <testcase name="Status code is 200" time="0.107"/>
+    <testcase name="Successful POST request" time="0.107"/>
+    <testcase name="msg==ok" time="0.107" classname="团队文化和招募 / 团队招募详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 团队招募详情.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:29).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.107" classname="团队文化和招募 / 团队招募详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 团队招募详情.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:29).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 报名招募" id="78d46ffc-3e43-4af8-8751-7a5aa5c692cb" tests="2" failures="0" errors="0" time="0.111">
+    <testcase name="Status code is 200" time="0.111"/>
+    <testcase name="ret==-1" time="0.111"/>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 生成团队文化分享链接" id="9ca766e4-78a5-494b-97ab-46cbf8b765eb" tests="4" failures="2" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+    <testcase name="Successful POST request" time="0.105"/>
+    <testcase name="msg==ok" time="0.105" classname="团队文化和招募 / 生成团队文化分享链接">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 生成团队文化分享链接.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:31).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.105" classname="团队文化和招募 / 生成团队文化分享链接">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 生成团队文化分享链接.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:31).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队文化和招募 / 生成招募活动分享链接" id="81898d3d-c333-4b93-9495-1eed439bca5e" tests="4" failures="2" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100"/>
+    <testcase name="Successful POST request" time="0.100"/>
+    <testcase name="msg==ok" time="0.100" classname="团队文化和招募 / 生成招募活动分享链接">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 生成招募活动分享链接.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:32).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.100" classname="团队文化和招募 / 生成招募活动分享链接">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队文化和招募 / 生成招募活动分享链接.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:32).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 新增日报接口" id="3972e5d7-15e7-4985-a9f7-4ed2e21e4a24" tests="4" failures="2" errors="0" time="0.104">
+    <testcase name="Status code is 200" time="0.104"/>
+    <testcase name="Successful POST request" time="0.104"/>
+    <testcase name="msg==您已创建日报，无法重复创建" time="0.104" classname="报告相关 / 新增日报接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 新增日报接口.]]>
+        <![CDATA[Test description: msg==您已创建日报，无法重复创建.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '您已创建日报，无法重复创建'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '您已创建日报，无法重复创建'
+   at Object.eval sandbox-script.js:3:33).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.104" classname="报告相关 / 新增日报接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 新增日报接口.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:4:33).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 新增日报接口-成员新增日报" id="03dcdfad-b38d-4b65-b316-bb7c8f9c634d" tests="4" failures="0" errors="0" time="0.123">
+    <testcase name="Status code is 200" time="0.123"/>
+    <testcase name="Successful POST request" time="0.123"/>
+    <testcase name="msg==ok" time="0.123"/>
+    <testcase name="ret==0" time="0.123"/>
+  </testsuite>
+  <testsuite name="报告相关 / 新增周报接口" id="770ba5c2-8f01-49f4-a358-29c2036aa65d" tests="3" failures="2" errors="0" time="0.116">
+    <testcase name="Status code is 200" time="0.116"/>
+    <testcase name="msg==您已创建本周周报，无法重复创建" time="0.116" classname="报告相关 / 新增周报接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 新增周报接口.]]>
+        <![CDATA[Test description: msg==您已创建本周周报，无法重复创建.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '您已创建本周周报，无法重复创建'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '您已创建本周周报，无法重复创建'
+   at Object.eval sandbox-script.js:2:35).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.116" classname="报告相关 / 新增周报接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 新增周报接口.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:35).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 新增周报接口-成员新增周报" id="353413e9-6c01-4a26-a85f-b0c7768c355a" tests="4" failures="0" errors="0" time="0.117">
+    <testcase name="Status code is 200" time="0.117"/>
+    <testcase name="Successful POST request" time="0.117"/>
+    <testcase name="msg==ok" time="0.117"/>
+    <testcase name="ret==0" time="0.117"/>
+  </testsuite>
+  <testsuite name="报告相关 / 新增月报" id="da9d6a30-64ba-40d2-8dab-2065724d6fac" tests="4" failures="2" errors="0" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="Successful POST request" time="0.101"/>
+    <testcase name="msg==您已创建本月月报，无法重复创建" time="0.101" classname="报告相关 / 新增月报">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 新增月报.]]>
+        <![CDATA[Test description: msg==您已创建本月月报，无法重复创建.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '您已创建本月月报，无法重复创建'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '您已创建本月月报，无法重复创建'
+   at Object.eval sandbox-script.js:3:37).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.101" classname="报告相关 / 新增月报">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 新增月报.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:4:37).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 新增月报-成员新增月报" id="356cf982-b5ba-4d29-8a1c-67d2c0fe480e" tests="4" failures="0" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+    <testcase name="Successful POST request" time="0.105"/>
+    <testcase name="msg==您已创建本月月报，无法重复创建" time="0.105"/>
+    <testcase name="ret==-1" time="0.105"/>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-日报-查看自己创建的日报列表-管理员" id="861cda01-d544-43e7-a2b0-afb1bcd350fd" tests="4" failures="2" errors="1" time="0.102">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iReportId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.102"/>
+    <testcase name="Successful POST request" time="0.102"/>
+    <testcase name="msg==ok" time="0.102" classname="报告相关 / 查询报告接口-日报-查看自己创建的日报列表-管理员">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 查询报告接口-日报-查看自己创建的日报列表-管理员.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:39).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.102" classname="报告相关 / 查询报告接口-日报-查看自己创建的日报列表-管理员">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 查询报告接口-日报-查看自己创建的日报列表-管理员.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:39).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-周报-查看自己创建的日报列表-成员" id="cdf896f3-24fa-476f-ab8a-d301e0ba3272" tests="4" failures="0" errors="0" time="0.109">
+    <testcase name="Status code is 200" time="0.109"/>
+    <testcase name="Successful POST request" time="0.109"/>
+    <testcase name="msg==ok" time="0.109"/>
+    <testcase name="ret==0" time="0.109"/>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-周报-查看自己创建的周报列表-管理员" id="1f6b57fa-b57a-4835-89fd-9ed2ed6d0a12" tests="4" failures="2" errors="1" time="0.096">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iReportId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.096"/>
+    <testcase name="Successful POST request" time="0.096"/>
+    <testcase name="msg==ok" time="0.096" classname="报告相关 / 查询报告接口-周报-查看自己创建的周报列表-管理员">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 查询报告接口-周报-查看自己创建的周报列表-管理员.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:41).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.096" classname="报告相关 / 查询报告接口-周报-查看自己创建的周报列表-管理员">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 查询报告接口-周报-查看自己创建的周报列表-管理员.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:41).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-周报-查看自己创建的周报列表-成员" id="ff789597-ad71-4f75-855e-d644760cd646" tests="4" failures="0" errors="0" time="0.113">
+    <testcase name="Status code is 200" time="0.113"/>
+    <testcase name="Successful POST request" time="0.113"/>
+    <testcase name="msg==ok" time="0.113"/>
+    <testcase name="ret==0" time="0.113"/>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-周报-查看自己创建的月报列表-成员" id="64d25f86-0620-43bc-94f9-fe7dc2b04b0f" tests="4" failures="0" errors="0" time="0.107">
+    <testcase name="Status code is 200" time="0.107"/>
+    <testcase name="Successful POST request" time="0.107"/>
+    <testcase name="msg==ok" time="0.107"/>
+    <testcase name="ret==0" time="0.107"/>
+  </testsuite>
+  <testsuite name="报告相关 / 查询报告接口-月报-查看自己创建的月报列表-管理员" id="6bcb441e-9c06-41e8-b068-ac8631f16ff3" tests="4" failures="2" errors="1" time="0.103">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iReportId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.103"/>
+    <testcase name="Successful POST request" time="0.103"/>
+    <testcase name="msg==ok" time="0.103" classname="报告相关 / 查询报告接口-月报-查看自己创建的月报列表-管理员">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 查询报告接口-月报-查看自己创建的月报列表-管理员.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:44).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.103" classname="报告相关 / 查询报告接口-月报-查看自己创建的月报列表-管理员">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 查询报告接口-月报-查看自己创建的月报列表-管理员.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:44).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 报告已读接口-管理员登录-查看日报" id="66eb6dcb-8fde-4ad3-aa23-9a14b5dae1a4" tests="4" failures="2" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+    <testcase name="Successful POST request" time="0.105"/>
+    <testcase name="ret==0" time="0.105" classname="报告相关 / 报告已读接口-管理员登录-查看日报">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 报告已读接口-管理员登录-查看日报.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:3:45).]]>
+      </failure>
+    </testcase>
+    <testcase name="msg==已读状态修改失败" time="0.105" classname="报告相关 / 报告已读接口-管理员登录-查看日报">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 报告已读接口-管理员登录-查看日报.]]>
+        <![CDATA[Test description: msg==已读状态修改失败.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '已读状态修改失败'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '已读状态修改失败'
+   at Object.eval sandbox-script.js:4:45).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 报告已读接口-管理员登录-周报" id="eb6c540c-1b55-4272-86ed-384250272291" tests="4" failures="2" errors="0" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="Successful POST request" time="0.101"/>
+    <testcase name="ret==0" time="0.101" classname="报告相关 / 报告已读接口-管理员登录-周报">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 报告已读接口-管理员登录-周报.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:3:46).]]>
+      </failure>
+    </testcase>
+    <testcase name="msg==已读状态修改失败" time="0.101" classname="报告相关 / 报告已读接口-管理员登录-周报">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 报告已读接口-管理员登录-周报.]]>
+        <![CDATA[Test description: msg==已读状态修改失败.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '已读状态修改失败'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '已读状态修改失败'
+   at Object.eval sandbox-script.js:4:46).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 报告已读接口-管理员登录-查看月报" id="d7f6b60f-0e6f-4aa8-a34b-6a6fd960bed0" tests="4" failures="2" errors="0" time="0.103">
+    <testcase name="Status code is 200" time="0.103"/>
+    <testcase name="Successful POST request" time="0.103"/>
+    <testcase name="ret==0" time="0.103" classname="报告相关 / 报告已读接口-管理员登录-查看月报">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 报告已读接口-管理员登录-查看月报.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:3:47).]]>
+      </failure>
+    </testcase>
+    <testcase name="msg==已读状态修改失败" time="0.103" classname="报告相关 / 报告已读接口-管理员登录-查看月报">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 报告已读接口-管理员登录-查看月报.]]>
+        <![CDATA[Test description: msg==已读状态修改失败.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '已读状态修改失败'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '已读状态修改失败'
+   at Object.eval sandbox-script.js:4:47).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 修改报告接口-成员修改日报" id="0de745a4-8940-4125-afdf-c4a2330a07d0" tests="1" failures="0" errors="0" time="0.111">
+    <testcase name="Status code is 200" time="0.111"/>
+  </testsuite>
+  <testsuite name="报告相关 / 删除报告接口-日报-成员删除自己的日报" id="85721f2c-c8ab-44d3-9def-75ce93c069c0" tests="3" failures="0" errors="0" time="0.109">
+    <testcase name="Status code is 200" time="0.109"/>
+    <testcase name="Successful POST request" time="0.109"/>
+    <testcase name="msg==您删除的报告不存在，请刷新后再试" time="0.109"/>
+  </testsuite>
+  <testsuite name="报告相关 / 删除报告接口-日报-管理员删除成员的日报" id="96d19995-da42-47a6-8515-964544124622" tests="3" failures="1" errors="0" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="Successful POST request" time="0.101"/>
+    <testcase name="msg==您删除的报告不存在，请刷新后再试" time="0.101" classname="报告相关 / 删除报告接口-日报-管理员删除成员的日报">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 删除报告接口-日报-管理员删除成员的日报.]]>
+        <![CDATA[Test description: msg==您删除的报告不存在，请刷新后再试.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '您删除的报告不存在，请刷新后再试'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '您删除的报告不存在，请刷新后再试'
+   at Object.eval sandbox-script.js:3:50).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 删除报告接口-周报-成员删除自己的周报" id="9f627850-6b48-42f5-a076-5cca83a03e77" tests="3" failures="1" errors="0" time="0.107">
+    <testcase name="Status code is 200" time="0.107"/>
+    <testcase name="Successful POST request" time="0.107"/>
+    <testcase name="msg==您删除的报告不存在，请刷新后再试" time="0.107" classname="报告相关 / 删除报告接口-周报-成员删除自己的周报">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 删除报告接口-周报-成员删除自己的周报.]]>
+        <![CDATA[Test description: msg==您删除的报告不存在，请刷新后再试.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '您删除的报告不存在，请刷新后再试'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '您删除的报告不存在，请刷新后再试'
+   at Object.eval sandbox-script.js:3:51).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 删除报告接口-月报-成员删除自己的月报" id="8f1d98ba-dd82-4434-b264-0c6f5a08b394" tests="3" failures="1" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100"/>
+    <testcase name="Successful POST request" time="0.100"/>
+    <testcase name="msg==您删除的报告不存在，请刷新后再试" time="0.100" classname="报告相关 / 删除报告接口-月报-成员删除自己的月报">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 删除报告接口-月报-成员删除自己的月报.]]>
+        <![CDATA[Test description: msg==您删除的报告不存在，请刷新后再试.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '您删除的报告不存在，请刷新后再试'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '您删除的报告不存在，请刷新后再试'
+   at Object.eval sandbox-script.js:3:52).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="报告相关 / 新增日报接口" id="00edb0d7-930c-4dc8-92ed-9af3d9c7ae17" tests="4" failures="2" errors="0" time="0.098">
+    <testcase name="Status code is 200" time="0.098"/>
+    <testcase name="Successful POST request" time="0.098"/>
+    <testcase name="msg==ok" time="0.098" classname="报告相关 / 新增日报接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 新增日报接口.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:53).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.098" classname="报告相关 / 新增日报接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 报告相关 / 新增日报接口.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:53).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队培训 / 创建培训接口-线上培训" id="3e6d1481-328e-4fe0-be59-9be570e0d59b" tests="4" failures="2" errors="0" time="0.103">
+    <testcase name="Status code is 200" time="0.103"/>
+    <testcase name="Successful POST request" time="0.103"/>
+    <testcase name="msg==ok" time="0.103" classname="团队培训 / 创建培训接口-线上培训">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 创建培训接口-线上培训.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:54).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.103" classname="团队培训 / 创建培训接口-线上培训">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 创建培训接口-线上培训.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:54).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队培训 / 创建培训接口-线下培训" id="c7437202-b47d-444d-b2c0-3e842bb1b066" tests="4" failures="2" errors="0" time="0.106">
+    <testcase name="Status code is 200" time="0.106"/>
+    <testcase name="Successful POST request" time="0.106"/>
+    <testcase name="msg==ok" time="0.106" classname="团队培训 / 创建培训接口-线下培训">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 创建培训接口-线下培训.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:55).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.106" classname="团队培训 / 创建培训接口-线下培训">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 创建培训接口-线下培训.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:55).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队培训 / 查询团队培训列表-管理员查看自己团队培训" id="4156cc4a-5325-4f65-a931-aa79343747d0" tests="4" failures="2" errors="0" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="Successful POST request" time="0.101"/>
+    <testcase name="msg==ok" time="0.101" classname="团队培训 / 查询团队培训列表-管理员查看自己团队培训">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 查询团队培训列表-管理员查看自己团队培训.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:56).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.101" classname="团队培训 / 查询团队培训列表-管理员查看自己团队培训">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 查询团队培训列表-管理员查看自己团队培训.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:56).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队培训 / 查询团队培训列表-成员查看团队培训" id="6d54becb-ca00-4c95-adf1-e794aeca9249" tests="4" failures="0" errors="0" time="0.111">
+    <testcase name="Status code is 200" time="0.111"/>
+    <testcase name="Successful POST request" time="0.111"/>
+    <testcase name="msg==ok" time="0.111"/>
+    <testcase name="ret==0" time="0.111"/>
+  </testsuite>
+  <testsuite name="团队培训 / 查询团队培训列表-成员查看已报名的团队培训" id="75d4a305-ce09-46dc-a50d-6db9261b22b7" tests="4" failures="0" errors="0" time="0.112">
+    <testcase name="Status code is 200" time="0.112"/>
+    <testcase name="Successful POST request" time="0.112"/>
+    <testcase name="msg==ok" time="0.112"/>
+    <testcase name="ret==0" time="0.112"/>
+  </testsuite>
+  <testsuite name="团队培训 / 培训报名接口" id="9570ae28-41f1-41a3-b564-24b1df4350e0" tests="3" failures="0" errors="0" time="0.117">
+    <testcase name="Status code is 200" time="0.117"/>
+    <testcase name="msg==ok" time="0.117"/>
+    <testcase name="ret==0" time="0.117"/>
+  </testsuite>
+  <testsuite name="团队培训 / 培训搜索接口--管理员搜索" id="7ba23b9a-0e0a-4a72-a957-819a114ed2ce" tests="3" failures="2" errors="0" time="0.099">
+    <testcase name="Status code is 200" time="0.099"/>
+    <testcase name="msg==ok" time="0.099" classname="团队培训 / 培训搜索接口--管理员搜索">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 培训搜索接口--管理员搜索.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:2:60).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.099" classname="团队培训 / 培训搜索接口--管理员搜索">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 培训搜索接口--管理员搜索.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:3:60).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队培训 / 培训搜索接口--团队成员搜索" id="210927cb-9b35-43df-9211-fb46b54f9420" tests="3" failures="0" errors="0" time="0.130">
+    <testcase name="Status code is 200" time="0.130"/>
+    <testcase name="msg==ok" time="0.130"/>
+    <testcase name="ret==0" time="0.130"/>
+  </testsuite>
+  <testsuite name="团队培训 / 培训搜索接口--团队成员搜索已报名" id="0ae3c40c-b3f4-4968-95c6-12222933ed46" tests="3" failures="0" errors="0" time="0.120">
+    <testcase name="Status code is 200" time="0.120"/>
+    <testcase name="msg==ok" time="0.120"/>
+    <testcase name="ret==0" time="0.120"/>
+  </testsuite>
+  <testsuite name="团队培训 / 培训详情--管理员查看" id="47654c65-3064-4724-852c-065c534fdd77" tests="4" failures="2" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+    <testcase name="Successful POST request" time="0.105"/>
+    <testcase name="msg==ok" time="0.105" classname="团队培训 / 培训详情--管理员查看">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 培训详情--管理员查看.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:63).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.105" classname="团队培训 / 培训详情--管理员查看">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 培训详情--管理员查看.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:63).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队培训 / 培训详情--成员查看培训" id="9e08a2bb-c1db-4bf7-b9ab-f3f9f97e0080" tests="4" failures="0" errors="0" time="0.114">
+    <testcase name="Status code is 200" time="0.114"/>
+    <testcase name="Successful POST request" time="0.114"/>
+    <testcase name="msg==ok" time="0.114"/>
+    <testcase name="ret==0" time="0.114"/>
+  </testsuite>
+  <testsuite name="团队培训 / 创建培训接口-线上培训 -测试删除" id="e6440c4c-574b-4cc4-9eb2-631e556b0d89" tests="4" failures="2" errors="0" time="0.103">
+    <testcase name="Status code is 200" time="0.103"/>
+    <testcase name="Successful POST request" time="0.103"/>
+    <testcase name="msg==ok" time="0.103" classname="团队培训 / 创建培训接口-线上培训 -测试删除">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 创建培训接口-线上培训 -测试删除.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:65).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.103" classname="团队培训 / 创建培训接口-线上培训 -测试删除">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 创建培训接口-线上培训 -测试删除.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:65).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队培训 / 查询团队培训列表-测试删除" id="9c7b3860-ac2d-4c8e-ad14-de1f6ffed25a" tests="4" failures="2" errors="1" time="0.102">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iTrainingId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.102"/>
+    <testcase name="Successful POST request" time="0.102"/>
+    <testcase name="msg==ok" time="0.102" classname="团队培训 / 查询团队培训列表-测试删除">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 查询团队培训列表-测试删除.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:66).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.102" classname="团队培训 / 查询团队培训列表-测试删除">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 查询团队培训列表-测试删除.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:66).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队培训 / 删除培训-管理员删除培训" id="356ffa1d-3c55-45c0-9b51-861600f1b0ad" tests="4" failures="2" errors="0" time="0.099">
+    <testcase name="Status code is 200" time="0.099"/>
+    <testcase name="Successful POST request" time="0.099"/>
+    <testcase name="msg==ok" time="0.099" classname="团队培训 / 删除培训-管理员删除培训">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 删除培训-管理员删除培训.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:67).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.099" classname="团队培训 / 删除培训-管理员删除培训">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队培训 / 删除培训-管理员删除培训.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:67).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 添加-资讯" id="9368c43b-6f71-43d6-94a7-f4110d32ac11" tests="4" failures="2" errors="0" time="0.127">
+    <testcase name="Status code is 200" time="0.127"/>
+    <testcase name="Successful POST request" time="0.127"/>
+    <testcase name="msg==ok" time="0.127" classname="团队公告和资讯 / 添加-资讯">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队公告和资讯 / 添加-资讯.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:68).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.127" classname="团队公告和资讯 / 添加-资讯">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队公告和资讯 / 添加-资讯.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:68).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 添加-公告" id="7446d62a-1b89-4ce2-8c29-82af582e3d89" tests="4" failures="2" errors="0" time="0.131">
+    <testcase name="Status code is 200" time="0.131"/>
+    <testcase name="Successful POST request" time="0.131"/>
+    <testcase name="msg==ok" time="0.131" classname="团队公告和资讯 / 添加-公告">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队公告和资讯 / 添加-公告.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:69).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.131" classname="团队公告和资讯 / 添加-公告">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队公告和资讯 / 添加-公告.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:69).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 列表-团队公告-管理员查看" id="76853b04-c60f-4306-87dd-5f76ca83e7a9" tests="4" failures="2" errors="1" time="0.125">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iAnnounceId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.125"/>
+    <testcase name="Successful POST request" time="0.125"/>
+    <testcase name="msg==ok" time="0.125" classname="团队公告和资讯 / 列表-团队公告-管理员查看">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队公告和资讯 / 列表-团队公告-管理员查看.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:70).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.125" classname="团队公告和资讯 / 列表-团队公告-管理员查看">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队公告和资讯 / 列表-团队公告-管理员查看.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:70).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 列表-团队资讯-管理员查看" id="205f86f7-5026-4a9c-87cd-0db6ef40848d" tests="4" failures="2" errors="0" time="0.093">
+    <testcase name="Status code is 200" time="0.093"/>
+    <testcase name="Successful POST request" time="0.093"/>
+    <testcase name="msg==ok" time="0.093" classname="团队公告和资讯 / 列表-团队资讯-管理员查看">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队公告和资讯 / 列表-团队资讯-管理员查看.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:71).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.093" classname="团队公告和资讯 / 列表-团队资讯-管理员查看">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队公告和资讯 / 列表-团队资讯-管理员查看.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:71).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 公告已读接口" id="9edfa35c-64b5-4cf7-be50-b06f114feb83" tests="4" failures="0" errors="0" time="0.110">
+    <testcase name="Status code is 200" time="0.110"/>
+    <testcase name="Successful POST request" time="0.110"/>
+    <testcase name="msg==ok" time="0.110"/>
+    <testcase name="ret==0" time="0.110"/>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 详情(已屏蔽, 仅用于推送跳转)--管理员查看详情" id="3f5aedac-5ea6-40c5-a457-33b37eb02f70" tests="4" failures="2" errors="0" time="0.110">
+    <testcase name="Status code is 200" time="0.110"/>
+    <testcase name="Successful POST request" time="0.110"/>
+    <testcase name="msg==ok" time="0.110" classname="团队公告和资讯 / 详情(已屏蔽, 仅用于推送跳转)--管理员查看详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队公告和资讯 / 详情(已屏蔽, 仅用于推送跳转)--管理员查看详情.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:73).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.110" classname="团队公告和资讯 / 详情(已屏蔽, 仅用于推送跳转)--管理员查看详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 团队公告和资讯 / 详情(已屏蔽, 仅用于推送跳转)--管理员查看详情.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:73).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="团队公告和资讯 / 详情(已屏蔽, 仅用于推送跳转)--成员查看详情" id="1371e667-cdea-4277-97f8-2286ab5d6520" tests="4" failures="0" errors="0" time="0.107">
+    <testcase name="Status code is 200" time="0.107"/>
+    <testcase name="Successful POST request" time="0.107"/>
+    <testcase name="msg==ok" time="0.107"/>
+    <testcase name="ret==0" time="0.107"/>
+  </testsuite>
+  <testsuite name="日程 / 添加日程" id="f41e6f1c-c831-410d-98db-ff14d1c281fd" tests="4" failures="2" errors="0" time="0.104">
+    <testcase name="Status code is 200" time="0.104"/>
+    <testcase name="Successful POST request" time="0.104"/>
+    <testcase name="msg==ok" time="0.104" classname="日程 / 添加日程">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 日程 / 添加日程.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:75).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.104" classname="日程 / 添加日程">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 日程 / 添加日程.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:75).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="日程 / 日程总览(范围或月搜索)" id="70d1b077-1925-49cb-bd42-035f754da652" tests="1" failures="0" errors="0" time="0.112">
+    <testcase name="Status code is 200" time="0.112"/>
+  </testsuite>
+  <testsuite name="日程 / 某天的日程列表" id="4e7ac3fb-09d5-474e-b268-eb8ba2e76d01" tests="1" failures="0" errors="0" time="0.106">
+    <testcase name="Status code is 200" time="0.106"/>
+  </testsuite>
+  <testsuite name="日程 / 修改日程" id="956a542d-3aa8-4fb2-bd45-3a41b21800ce" tests="1" failures="0" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+  </testsuite>
+  <testsuite name="日程 / 更新日程完成状态" id="f78d16f0-db41-485b-a644-bdb2541f3caf" tests="1" failures="0" errors="0" time="0.095">
+    <testcase name="Status code is 200" time="0.095"/>
+  </testsuite>
+  <testsuite name="日程 / 详情(已屏蔽, 仅用于推送跳转)--成员查看详情" id="0a753e0c-a675-46e6-9024-0bbc762afc31" tests="4" failures="0" errors="0" time="0.108">
+    <testcase name="Status code is 200" time="0.108"/>
+    <testcase name="Successful POST request" time="0.108"/>
+    <testcase name="msg==ok" time="0.108"/>
+    <testcase name="ret==0" time="0.108"/>
+  </testsuite>
+  <testsuite name="网盘 / 获取网盘文件列表接口" id="760a5c1d-c5f2-4222-a4f9-e3e182175eac" tests="4" failures="2" errors="1" time="0.096">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iFileId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.096"/>
+    <testcase name="Successful POST request" time="0.096"/>
+    <testcase name="msg==ok" time="0.096" classname="网盘 / 获取网盘文件列表接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 网盘 / 获取网盘文件列表接口.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:81).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.096" classname="网盘 / 获取网盘文件列表接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 网盘 / 获取网盘文件列表接口.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:81).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="网盘 / 网盘文件搜索" id="abe9a794-0b96-4e52-81b7-d7276b0fffa3" tests="4" failures="2" errors="0" time="0.115">
+    <testcase name="Status code is 200" time="0.115"/>
+    <testcase name="Successful POST request" time="0.115"/>
+    <testcase name="msg==ok" time="0.115" classname="网盘 / 网盘文件搜索">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 网盘 / 网盘文件搜索.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:82).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.115" classname="网盘 / 网盘文件搜索">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 网盘 / 网盘文件搜索.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:82).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="网盘 / 获取网盘文件下载连接接口" id="fb175f12-da96-490f-9a39-e8433ed1910d" tests="4" failures="2" errors="0" time="0.103">
+    <testcase name="Status code is 200" time="0.103"/>
+    <testcase name="Successful POST request" time="0.103"/>
+    <testcase name="msg==ok" time="0.103" classname="网盘 / 获取网盘文件下载连接接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 网盘 / 获取网盘文件下载连接接口.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:83).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.103" classname="网盘 / 获取网盘文件下载连接接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 网盘 / 获取网盘文件下载连接接口.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:83).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="网盘 / 查询网盘容量信息接口" id="7183a16a-559a-422d-a302-6cbe79516ae0" tests="4" failures="2" errors="0" time="0.093">
+    <testcase name="Status code is 200" time="0.093"/>
+    <testcase name="Successful POST request" time="0.093"/>
+    <testcase name="msg==ok" time="0.093" classname="网盘 / 查询网盘容量信息接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 网盘 / 查询网盘容量信息接口.]]>
+        <![CDATA[Test description: msg==ok.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal 'ok'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal 'ok'
+   at Object.eval sandbox-script.js:3:84).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==0" time="0.093" classname="网盘 / 查询网盘容量信息接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 网盘 / 查询网盘容量信息接口.]]>
+        <![CDATA[Test description: ret==0.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal 0
+   at Object.eval sandbox-script.js:4:84).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="必达 / 创建必达" id="31746474-a3b9-4ee7-a38b-c40e208577ad" tests="3" failures="2" errors="0" time="0.097">
+    <testcase name="Status code is 200" time="0.097"/>
+    <testcase name="msg==" time="0.097" classname="必达 / 创建必达">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 创建必达.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal ''
+   at Object.eval sandbox-script.js:2:85).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.097" classname="必达 / 创建必达">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 创建必达.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:85).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="必达 / 团队管理者查询必达列表接口" id="aaa5bd27-b259-4d61-b5f2-76234d5873d3" tests="1" failures="0" errors="1" time="0.101">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iPromiseId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.101"/>
+  </testsuite>
+  <testsuite name="必达 / 团队成员收到的必达列表接口" id="ac140b7d-f6b2-46fa-9780-65b22be9e10e" tests="1" failures="0" errors="1" time="0.111">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iPromiseId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.111"/>
+  </testsuite>
+  <testsuite name="必达 / 必达详情内容接口-必达创建者查看必达" id="b7357dfc-30c6-42b3-9121-76ccdc689060" tests="3" failures="2" errors="0" time="0.101">
+    <testcase name="Status code is 200" time="0.101"/>
+    <testcase name="msg==" time="0.101" classname="必达 / 必达详情内容接口-必达创建者查看必达">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达详情内容接口-必达创建者查看必达.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal ''
+   at Object.eval sandbox-script.js:2:88).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.101" classname="必达 / 必达详情内容接口-必达创建者查看必达">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达详情内容接口-必达创建者查看必达.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:88).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="必达 / 必达详情内容接口-必达接收者查看必达" id="736b4b02-11af-406f-8ad9-b589089e98c7" tests="3" failures="1" errors="0" time="0.107">
+    <testcase name="Status code is 200" time="0.107"/>
+    <testcase name="msg==" time="0.107" classname="必达 / 必达详情内容接口-必达接收者查看必达">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达详情内容接口-必达接收者查看必达.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '抱歉，您查询的必达信息不存在,请刷新后再试' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '抱歉，您查询的必达信息不存在,请刷新后再试' to deeply equal ''
+   at Object.eval sandbox-script.js:2:89).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.107"/>
+  </testsuite>
+  <testsuite name="必达 / 必达确认已读接口" id="c46d4b7e-911d-4c01-8c75-cae159d2c67e" tests="3" failures="1" errors="0" time="0.106">
+    <testcase name="Status code is 200" time="0.106"/>
+    <testcase name="msg==" time="0.106" classname="必达 / 必达确认已读接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达确认已读接口.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '非法的必达记录ID' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '非法的必达记录ID' to deeply equal ''
+   at Object.eval sandbox-script.js:2:90).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.106"/>
+  </testsuite>
+  <testsuite name="必达 / 必达刷新提醒-管理员刷新" id="6933f970-d66c-4872-9c61-885f555a88db" tests="3" failures="2" errors="0" time="0.097">
+    <testcase name="Status code is 200" time="0.097"/>
+    <testcase name="msg==" time="0.097" classname="必达 / 必达刷新提醒-管理员刷新">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达刷新提醒-管理员刷新.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal ''
+   at Object.eval sandbox-script.js:2:91).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.097" classname="必达 / 必达刷新提醒-管理员刷新">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达刷新提醒-管理员刷新.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:91).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="必达 / 必达撤回接口-管理员撤回" id="80581dc4-40a3-42d1-a455-4b470320c277" tests="3" failures="2" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+    <testcase name="msg==" time="0.105" classname="必达 / 必达撤回接口-管理员撤回">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达撤回接口-管理员撤回.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal ''
+   at Object.eval sandbox-script.js:2:92).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.105" classname="必达 / 必达撤回接口-管理员撤回">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 必达撤回接口-管理员撤回.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:92).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="必达 / 删除必达--成员删除" id="844c148c-df4d-424a-b1d4-465e1a81b560" tests="3" failures="1" errors="0" time="0.108">
+    <testcase name="Status code is 200" time="0.108"/>
+    <testcase name="msg==" time="0.108" classname="必达 / 删除必达--成员删除">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 删除必达--成员删除.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '非法的必达记录ID' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '非法的必达记录ID' to deeply equal ''
+   at Object.eval sandbox-script.js:2:93).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.108"/>
+  </testsuite>
+  <testsuite name="必达 / 删除必达--管理员删除" id="30fd5266-9266-4348-9c68-949693dc2015" tests="3" failures="2" errors="0" time="0.107">
+    <testcase name="Status code is 200" time="0.107"/>
+    <testcase name="msg==" time="0.107" classname="必达 / 删除必达--管理员删除">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 删除必达--管理员删除.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal ''
+   at Object.eval sandbox-script.js:2:94).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.107" classname="必达 / 删除必达--管理员删除">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 必达 / 删除必达--管理员删除.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:94).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 创建、更新客户信息--待修改" id="9ba42cdb-3ccf-4055-8ddb-2761e5daa47b" tests="1" failures="1" errors="2" time="0.000">
+    <error>
+      <![CDATA[Iteration: 0
+RequestError: TypeError: Header name must be a valid HTTP Token [" "]
+    at validateHeader (_http_outgoing.js:490:11)
+    at ClientRequest.setHeader (_http_outgoing.js:501:3)
+    at new ClientRequest (_http_client.js:173:14)
+    at Object.request (http.js:38:10)
+    at Object.request (https.js:239:15)
+    at Request.start (C:\Users\73016\AppData\Roaming\npm\node_modules\newman\node_modules\postman-request\request.js:799:32)
+    at Request.write (C:\Users\73016\AppData\Roaming\npm\node_modules\newman\node_modules\postman-request\request.js:1545:10)
+    at end (C:\Users\73016\AppData\Roaming\npm\node_modules\newman\node_modules\postman-request\request.js:587:18)
+    at Immediate.<anonymous> (C:\Users\73016\AppData\Roaming\npm\node_modules\newman\node_modules\postman-request\request.js:616:7)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.000" classname="客户管理 / 创建、更新客户信息--待修改">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 创建、更新客户信息--待修改.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:95).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 查询客户列表接口-重点客户" id="d46adadc-f552-4e76-b627-d4ec0e041794" tests="3" failures="2" errors="0" time="0.102">
+    <testcase name="Status code is 200" time="0.102"/>
+    <testcase name="msg==" time="0.102" classname="客户管理 / 查询客户列表接口-重点客户">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询客户列表接口-重点客户.]]>
+        <![CDATA[Test description: msg==.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal ''
+   at Object.eval sandbox-script.js:2:96).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.102" classname="客户管理 / 查询客户列表接口-重点客户">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询客户列表接口-重点客户.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:96).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 查询客户列表接口-全部客户" id="c471dc7e-36e7-4eb2-995c-c6d2b66ae541" tests="1" failures="0" errors="1" time="0.104">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property '0' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.104"/>
+  </testsuite>
+  <testsuite name="客户管理 / 删除客户接口" id="bbd295a9-a66a-4c76-bf99-f9f339cb2f52" tests="1" failures="0" errors="1" time="0.101">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property '0' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.101"/>
+  </testsuite>
+  <testsuite name="客户管理 / 修改客户重点状态-设置重点客户" id="2e3131bc-f2e0-41b7-aefe-18897a58ce69" tests="3" failures="2" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100"/>
+    <testcase name="msg==抱歉，您修改的客户不存在" time="0.100" classname="客户管理 / 修改客户重点状态-设置重点客户">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 修改客户重点状态-设置重点客户.]]>
+        <![CDATA[Test description: msg==抱歉，您修改的客户不存在.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您修改的客户不存在'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您修改的客户不存在'
+   at Object.eval sandbox-script.js:2:99).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.100" classname="客户管理 / 修改客户重点状态-设置重点客户">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 修改客户重点状态-设置重点客户.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:99).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 修改客户重点状态-设置非重点客户" id="552b1bb4-ef32-48fc-bb0b-26c3e4330349" tests="3" failures="2" errors="0" time="0.099">
+    <testcase name="Status code is 200" time="0.099"/>
+    <testcase name="msg==抱歉，您修改的客户不存在" time="0.099" classname="客户管理 / 修改客户重点状态-设置非重点客户">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 修改客户重点状态-设置非重点客户.]]>
+        <![CDATA[Test description: msg==抱歉，您修改的客户不存在.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您修改的客户不存在'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您修改的客户不存在'
+   at Object.eval sandbox-script.js:2:100).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.099" classname="客户管理 / 修改客户重点状态-设置非重点客户">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 修改客户重点状态-设置非重点客户.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:100).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 创建客户保单信息接口---非该用户" id="94a06c4d-c145-4a43-9e73-ad867fd6afda" tests="0" failures="0" errors="0" time="0.097"/>
+  <testsuite name="客户管理 / 查询客户保单列表" id="e60ed707-dc3c-4052-b8c7-75debfee3423" tests="3" failures="2" errors="0" time="0.171">
+    <testcase name="Status code is 200" time="0.171"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.171" classname="客户管理 / 查询客户保单列表">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询客户保单列表.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:102).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.171" classname="客户管理 / 查询客户保单列表">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询客户保单列表.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:102).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 删除客户保单记录接口" id="db8a88ce-3029-4b6b-bf93-dcfe52256058" tests="3" failures="2" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.100" classname="客户管理 / 删除客户保单记录接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 删除客户保单记录接口.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:103).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.100" classname="客户管理 / 删除客户保单记录接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 删除客户保单记录接口.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:103).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 创建客户跟进记录接口" id="e3bf5260-3c68-46e2-85ea-bd856cb333ca" tests="3" failures="2" errors="0" time="0.097">
+    <testcase name="Status code is 200" time="0.097"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.097" classname="客户管理 / 创建客户跟进记录接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 创建客户跟进记录接口.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:104).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.097" classname="客户管理 / 创建客户跟进记录接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 创建客户跟进记录接口.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:104).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 查询单个客户跟进记录列表接口" id="d0de83be-a69b-4d05-9209-8ecb421cea9d" tests="1" failures="0" errors="1" time="0.099">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property '0' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.099"/>
+  </testsuite>
+  <testsuite name="客户管理 / 查询全部客户跟进记录列表接口" id="b85470d1-f3d2-4a0f-bcb0-5859db7d8caa" tests="1" failures="0" errors="1" time="0.098">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property '0' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.098"/>
+  </testsuite>
+  <testsuite name="客户管理 / 批量删除跟进记录接口" id="2be9f88b-0630-4cb8-bc68-8bad748a9414" tests="3" failures="2" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.105" classname="客户管理 / 批量删除跟进记录接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 批量删除跟进记录接口.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:107).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.105" classname="客户管理 / 批量删除跟进记录接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 批量删除跟进记录接口.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:107).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 搜索客户接口" id="eb4ad973-d2d5-4173-9661-9bebdd061b11" tests="3" failures="2" errors="0" time="0.091">
+    <testcase name="Status code is 200" time="0.091"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.091" classname="客户管理 / 搜索客户接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 搜索客户接口.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:108).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.091" classname="客户管理 / 搜索客户接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 搜索客户接口.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:108).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 修改签单和跟进状态接口" id="6b68f01b-e7fa-42c3-ad34-887e49f29068" tests="3" failures="2" errors="0" time="0.119">
+    <testcase name="Status code is 200" time="0.119"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.119" classname="客户管理 / 修改签单和跟进状态接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 修改签单和跟进状态接口.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:109).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.119" classname="客户管理 / 修改签单和跟进状态接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 修改签单和跟进状态接口.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:109).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 月销售简报和重点客户接口" id="5537406a-1052-4d79-979e-cf082991d01e" tests="3" failures="2" errors="0" time="0.092">
+    <testcase name="Status code is 200" time="0.092"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.092" classname="客户管理 / 月销售简报和重点客户接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 月销售简报和重点客户接口.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:110).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.092" classname="客户管理 / 月销售简报和重点客户接口">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 月销售简报和重点客户接口.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:110).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 查询CRM提醒列表--保单提醒-过期" id="b6757cb0-7fa5-4a5c-981c-500ab0417820" tests="3" failures="2" errors="0" time="0.097">
+    <testcase name="Status code is 200" time="0.097"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.097" classname="客户管理 / 查询CRM提醒列表--保单提醒-过期">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询CRM提醒列表--保单提醒-过期.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:111).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.097" classname="客户管理 / 查询CRM提醒列表--保单提醒-过期">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询CRM提醒列表--保单提醒-过期.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:111).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 查询CRM提醒列表--保单提醒-正常" id="2a8927cd-6b53-409f-872f-39403a8f11a1" tests="3" failures="2" errors="0" time="0.096">
+    <testcase name="Status code is 200" time="0.096"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.096" classname="客户管理 / 查询CRM提醒列表--保单提醒-正常">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询CRM提醒列表--保单提醒-正常.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:112).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.096" classname="客户管理 / 查询CRM提醒列表--保单提醒-正常">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询CRM提醒列表--保单提醒-正常.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:112).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 查询CRM提醒列表--生日提醒-正常" id="91cdbaff-61e6-4984-9240-33b0725c087a" tests="3" failures="2" errors="0" time="0.099">
+    <testcase name="Status code is 200" time="0.099"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.099" classname="客户管理 / 查询CRM提醒列表--生日提醒-正常">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询CRM提醒列表--生日提醒-正常.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:113).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.099" classname="客户管理 / 查询CRM提醒列表--生日提醒-正常">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询CRM提醒列表--生日提醒-正常.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:113).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 查询CRM提醒列表--跟进提醒-正常" id="1ad81c3a-cc30-4492-b7b0-762164064109" tests="3" failures="2" errors="0" time="0.090">
+    <testcase name="Status code is 200" time="0.090"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.090" classname="客户管理 / 查询CRM提醒列表--跟进提醒-正常">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询CRM提醒列表--跟进提醒-正常.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:114).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.090" classname="客户管理 / 查询CRM提醒列表--跟进提醒-正常">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询CRM提醒列表--跟进提醒-正常.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:114).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="客户管理 / 查询CRM提醒列表--保单提醒-过期 Copy" id="d4f6d16a-157e-4e9c-9388-9854b53e29d5" tests="3" failures="2" errors="0" time="0.086">
+    <testcase name="Status code is 200" time="0.086"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.086" classname="客户管理 / 查询CRM提醒列表--保单提醒-过期 Copy">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询CRM提醒列表--保单提醒-过期 Copy.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:115).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.086" classname="客户管理 / 查询CRM提醒列表--保单提醒-过期 Copy">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 客户管理 / 查询CRM提醒列表--保单提醒-过期 Copy.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:115).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 医疗服务 / 医疗列表" id="09a035fa-95d5-48e1-a999-6125aada59d2" tests="1" failures="0" errors="1" time="0.091">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iMedicalId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.091"/>
+  </testsuite>
+  <testsuite name="销售工具 / 医疗服务 / 医疗详情" id="c4c48d5e-bb6e-4c3d-a19f-4d1e42e6e205" tests="3" failures="2" errors="0" time="0.103">
+    <testcase name="Status code is 200" time="0.103"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.103" classname="销售工具 / 医疗服务 / 医疗详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 医疗服务 / 医疗详情.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:117).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.103" classname="销售工具 / 医疗服务 / 医疗详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 医疗服务 / 医疗详情.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:117).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 医疗服务 / 医疗分享链接" id="be25f328-9c71-4f5c-aa18-2664153ac87d" tests="3" failures="2" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.100" classname="销售工具 / 医疗服务 / 医疗分享链接">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 医疗服务 / 医疗分享链接.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:118).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.100" classname="销售工具 / 医疗服务 / 医疗分享链接">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 医疗服务 / 医疗分享链接.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:118).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 医疗服务 / 医疗预约-儿童预约" id="60570e77-b38c-4185-95dd-0297b75781c0" tests="3" failures="2" errors="0" time="0.085">
+    <testcase name="Status code is 200" time="0.085"/>
+    <testcase name="msg==抱歉，您的预约项目中包含您预约过的项目，请重新选择" time="0.085" classname="销售工具 / 医疗服务 / 医疗预约-儿童预约">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 医疗服务 / 医疗预约-儿童预约.]]>
+        <![CDATA[Test description: msg==抱歉，您的预约项目中包含您预约过的项目，请重新选择.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您的预约项目中包含您预约过的项目，请重新选择'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您的预约项目中包含您预约过的项目，请重新选择'
+   at Object.eval sandbox-script.js:2:119).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.085" classname="销售工具 / 医疗服务 / 医疗预约-儿童预约">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 医疗服务 / 医疗预约-儿童预约.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:119).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 医疗服务 / 医疗预约-成人预约" id="05efbee6-7e74-4295-91f5-cdd6c15f2891" tests="3" failures="2" errors="0" time="0.096">
+    <testcase name="Status code is 200" time="0.096"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.096" classname="销售工具 / 医疗服务 / 医疗预约-成人预约">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 医疗服务 / 医疗预约-成人预约.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:120).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.096" classname="销售工具 / 医疗服务 / 医疗预约-成人预约">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 医疗服务 / 医疗预约-成人预约.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:120).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 酒店服务 / 酒店列表" id="dc645f15-c237-42cc-978b-68fceb7ebe3e" tests="1" failures="0" errors="1" time="0.094">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iHotelId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.094"/>
+  </testsuite>
+  <testsuite name="销售工具 / 酒店服务 / 酒店详情" id="8085b233-ca06-4e5b-85f9-0aa6203b01b2" tests="3" failures="2" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.100" classname="销售工具 / 酒店服务 / 酒店详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 酒店服务 / 酒店详情.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:122).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.100" classname="销售工具 / 酒店服务 / 酒店详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 酒店服务 / 酒店详情.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:122).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 酒店服务 / 酒店分享" id="0c79e7c9-e03d-4d74-b49f-ab8830a4cae8" tests="3" failures="2" errors="0" time="0.103">
+    <testcase name="Status code is 200" time="0.103"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.103" classname="销售工具 / 酒店服务 / 酒店分享">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 酒店服务 / 酒店分享.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:123).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.103" classname="销售工具 / 酒店服务 / 酒店分享">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 酒店服务 / 酒店分享.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:123).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 酒店服务 / 酒店预约" id="7ecc0102-cb08-4805-98a1-c75a7714560e" tests="3" failures="2" errors="0" time="0.087">
+    <testcase name="Status code is 200" time="0.087"/>
+    <testcase name="msg==抱歉，您的预约项目中包含您预约过的项目，请重新选择" time="0.087" classname="销售工具 / 酒店服务 / 酒店预约">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 酒店服务 / 酒店预约.]]>
+        <![CDATA[Test description: msg==抱歉，您的预约项目中包含您预约过的项目，请重新选择.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您的预约项目中包含您预约过的项目，请重新选择'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您的预约项目中包含您预约过的项目，请重新选择'
+   at Object.eval sandbox-script.js:2:124).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.087" classname="销售工具 / 酒店服务 / 酒店预约">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 酒店服务 / 酒店预约.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:124).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 专车服务 / 专车列表" id="d26a886d-74a6-4f8e-9482-9c5583909447" tests="1" failures="0" errors="1" time="0.094">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iShuttleId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.094"/>
+  </testsuite>
+  <testsuite name="销售工具 / 专车服务 / 专车详情" id="4292c385-39dd-4eb8-b7f9-84ccefe73926" tests="3" failures="2" errors="0" time="0.107">
+    <testcase name="Status code is 200" time="0.107"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.107" classname="销售工具 / 专车服务 / 专车详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 专车服务 / 专车详情.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:126).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.107" classname="销售工具 / 专车服务 / 专车详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 专车服务 / 专车详情.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:126).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 专车服务 / 专车分享" id="c06b8b05-9b88-48ff-9abc-4a42bf4fc2d8" tests="3" failures="2" errors="0" time="0.102">
+    <testcase name="Status code is 200" time="0.102"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.102" classname="销售工具 / 专车服务 / 专车分享">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 专车服务 / 专车分享.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:127).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.102" classname="销售工具 / 专车服务 / 专车分享">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 专车服务 / 专车分享.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:127).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 专车服务 / 专车预约" id="f89ce71d-21fe-4f26-8cf2-0aa76c783b7d" tests="3" failures="2" errors="0" time="0.087">
+    <testcase name="Status code is 200" time="0.087"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.087" classname="销售工具 / 专车服务 / 专车预约">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 专车服务 / 专车预约.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:128).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.087" classname="销售工具 / 专车服务 / 专车预约">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 专车服务 / 专车预约.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:128).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 银行开户服务 / 银行开户列表" id="6875a52e-7df3-48a5-b04b-08f01f17f5cc" tests="1" failures="0" errors="1" time="0.091">
+    <error>
+      <![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read property 'iBankServiceId' of undefined
+---
+]]>
+    </error>
+    <testcase name="Status code is 200" time="0.091"/>
+  </testsuite>
+  <testsuite name="销售工具 / 银行开户服务 / 银行开户详情" id="b2ea4434-9736-43b6-a89f-36acae009e26" tests="3" failures="2" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.100" classname="销售工具 / 银行开户服务 / 银行开户详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 银行开户服务 / 银行开户详情.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:130).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.100" classname="销售工具 / 银行开户服务 / 银行开户详情">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 银行开户服务 / 银行开户详情.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:130).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜详情--给自己投保" id="288a91f5-fd58-4cc7-abf5-0c58c5a72c63" tests="3" failures="2" errors="0" time="0.100">
+    <testcase name="Status code is 200" time="0.100"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.100" classname="销售工具 / 投保事宜 / 投保事宜详情--给自己投保">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜详情--给自己投保.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:131).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.100" classname="销售工具 / 投保事宜 / 投保事宜详情--给自己投保">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜详情--给自己投保.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:131).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜详情--给配偶投保" id="c695d88e-fb83-4ad6-8aa8-991ac73cb2e8" tests="3" failures="2" errors="0" time="0.093">
+    <testcase name="Status code is 200" time="0.093"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.093" classname="销售工具 / 投保事宜 / 投保事宜详情--给配偶投保">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜详情--给配偶投保.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:132).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.093" classname="销售工具 / 投保事宜 / 投保事宜详情--给配偶投保">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜详情--给配偶投保.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:132).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜详情--给子女投保" id="b285c977-f9cb-481b-a068-e2bd94d8bbb6" tests="3" failures="2" errors="0" time="0.099">
+    <testcase name="Status code is 200" time="0.099"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.099" classname="销售工具 / 投保事宜 / 投保事宜详情--给子女投保">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜详情--给子女投保.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:133).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.099" classname="销售工具 / 投保事宜 / 投保事宜详情--给子女投保">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜详情--给子女投保.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:133).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜详情--给孙子投保" id="910fe8c8-d57b-4565-93f0-2e3e46981752" tests="3" failures="2" errors="0" time="0.098">
+    <testcase name="Status code is 200" time="0.098"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.098" classname="销售工具 / 投保事宜 / 投保事宜详情--给孙子投保">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜详情--给孙子投保.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:134).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.098" classname="销售工具 / 投保事宜 / 投保事宜详情--给孙子投保">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜详情--给孙子投保.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:134).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜补充内容--给自己投保" id="a1e3114a-f146-49e9-a671-dc6b8f3ee6da" tests="3" failures="2" errors="0" time="0.104">
+    <testcase name="Status code is 200" time="0.104"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.104" classname="销售工具 / 投保事宜 / 投保事宜补充内容--给自己投保">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜补充内容--给自己投保.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:135).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.104" classname="销售工具 / 投保事宜 / 投保事宜补充内容--给自己投保">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜补充内容--给自己投保.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:135).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜分享链接-没有补充内容" id="323d98a5-03f4-4dde-a535-0d4f7fcb8af0" tests="3" failures="2" errors="0" time="0.102">
+    <testcase name="Status code is 200" time="0.102"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.102" classname="销售工具 / 投保事宜 / 投保事宜分享链接-没有补充内容">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜分享链接-没有补充内容.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:136).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.102" classname="销售工具 / 投保事宜 / 投保事宜分享链接-没有补充内容">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜分享链接-没有补充内容.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:136).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="销售工具 / 投保事宜 / 投保事宜分享链接-有补充内容" id="f7eed0a7-4f10-436b-a294-b03c2699a0ae" tests="3" failures="2" errors="0" time="0.102">
+    <testcase name="Status code is 200" time="0.102"/>
+    <testcase name="msg==抱歉，客户记录ID不合法" time="0.102" classname="销售工具 / 投保事宜 / 投保事宜分享链接-有补充内容">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜分享链接-有补充内容.]]>
+        <![CDATA[Test description: msg==抱歉，客户记录ID不合法.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，客户记录ID不合法'
+   at Object.eval sandbox-script.js:2:137).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.102" classname="销售工具 / 投保事宜 / 投保事宜分享链接-有补充内容">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 销售工具 / 投保事宜 / 投保事宜分享链接-有补充内容.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:137).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="财联邦（FMS）相关 / 课程报名" id="906fee62-92b4-4a75-a699-081e5bde6105" tests="3" failures="2" errors="0" time="0.106">
+    <testcase name="Status code is 200" time="0.106"/>
+    <testcase name="msg==抱歉，您已经提交过报名，请勿重新提交" time="0.106" classname="财联邦（FMS）相关 / 课程报名">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 财联邦（FMS）相关 / 课程报名.]]>
+        <![CDATA[Test description: msg==抱歉，您已经提交过报名，请勿重新提交.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您已经提交过报名，请勿重新提交'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您已经提交过报名，请勿重新提交'
+   at Object.eval sandbox-script.js:2:138).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.106" classname="财联邦（FMS）相关 / 课程报名">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 财联邦（FMS）相关 / 课程报名.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:138).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="财联邦（FMS）相关 / 得到保险师课程分享链接" id="7ada3a12-d495-4315-918f-e5b47e266649" tests="3" failures="2" errors="0" time="0.110">
+    <testcase name="Status code is 200" time="0.110"/>
+    <testcase name="msg==抱歉，您已经提交过报名，请勿重新提交" time="0.110" classname="财联邦（FMS）相关 / 得到保险师课程分享链接">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 财联邦（FMS）相关 / 得到保险师课程分享链接.]]>
+        <![CDATA[Test description: msg==抱歉，您已经提交过报名，请勿重新提交.]]>
+        <![CDATA[Error message: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您已经提交过报名，请勿重新提交'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '登录态已失效,请重新登录' to deeply equal '抱歉，您已经提交过报名，请勿重新提交'
+   at Object.eval sandbox-script.js:2:139).]]>
+      </failure>
+    </testcase>
+    <testcase name="ret==-1" time="0.110" classname="财联邦（FMS）相关 / 得到保险师课程分享链接">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 财联邦（FMS）相关 / 得到保险师课程分享链接.]]>
+        <![CDATA[Test description: ret==-1.]]>
+        <![CDATA[Error message: expected -10008 to deeply equal -1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected -10008 to deeply equal -1
+   at Object.eval sandbox-script.js:3:139).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="APP内嵌H5界面链接 / 【关于我们】服务协议" id="b04f5748-aaf2-4e6c-a615-9fe17fef26b4" tests="0" failures="0" errors="0" time="0.095"/>
+  <testsuite name="APP内嵌H5界面链接 / 【关于我们】隐私政策" id="3a11c128-5442-4dfd-9bc8-b0d0dd206c61" tests="0" failures="0" errors="0" time="0.023"/>
+  <testsuite name="APP内嵌H5界面链接 / 【设置】帮助中心" id="6475f0e9-4bca-49be-9c92-0d46ecd3a703" tests="0" failures="0" errors="0" time="0.021"/>
+  <testsuite name="APP内嵌H5界面链接 / 【销售工具】酒店预约" id="28913d10-2d76-429d-991d-46c680a11c0a" tests="0" failures="0" errors="0" time="0.027"/>
+  <testsuite name="APP内嵌H5界面链接 / 【销售工具】医疗服务" id="3e841d5b-beec-4a8b-8577-9e876002fd99" tests="0" failures="0" errors="0" time="0.026"/>
+  <testsuite name="APP内嵌H5界面链接 / 【销售工具】专车" id="5c7d019f-3d85-4572-8fb8-97d3928d4319" tests="0" failures="0" errors="0" time="0.020"/>
+  <testsuite name="APP内嵌H5界面链接 / 【销售工具】银行开户" id="b4b5ad7e-f313-4e06-bc12-bed9b0a6aa6f" tests="0" failures="0" errors="0" time="0.020"/>
+  <testsuite name="APP内嵌H5界面链接 / 【销售工具】产品库" id="75f098c3-a3fe-40f2-aec8-5b1ff24c1d5a" tests="0" failures="0" errors="0" time="0.025"/>
+  <testsuite name="APP内嵌H5界面链接 / 【行政支持】投保事宜" id="14e971d4-6e8f-4d60-b9ef-cd2efc512b94" tests="0" failures="0" errors="0" time="0.028"/>
+  <testsuite name="APP内嵌H5界面链接 / 【行政支持】付费购买" id="da48bec3-113b-4e49-814b-4282debcf36d" tests="0" failures="0" errors="0" time="0.030"/>
+  <testsuite name="未实名认证账号请求 / 手机号登录接口 Copy" id="3947466c-2bfe-4f85-84c9-ad83d2fffda0" tests="2" failures="1" errors="0" time="0.105">
+    <testcase name="Status code is 200" time="0.105"/>
+    <testcase name="Schema is valid" time="0.105" classname="未实名认证账号请求 / 手机号登录接口 Copy">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 05192889-0e71-4089-8735-154adf0c4edb.]]>
+        <![CDATA[Collection name: YunShuTest.]]>
+        <![CDATA[Request name: 未实名认证账号请求 / 手机号登录接口 Copy.]]>
+        <![CDATA[Test description: Schema is valid.]]>
+        <![CDATA[Error message: expected false to be true.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be true
+   at Object.eval sandbox-script.js:2:150).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
